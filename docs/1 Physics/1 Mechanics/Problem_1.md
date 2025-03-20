@@ -16,3 +16,38 @@ where:
 - $g$: Acceleration due to gravity $9.81 m/s²$
 
 This equation assumes ideal conditions, neglecting air resistance and other real-world factors.
+
+## Python Implementation
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Constants
+g = 9.81  # Gravitational acceleration (m/s^2)
+v0 = 50   # Initial velocity (m/s)
+
+# Function to calculate range
+def calculate_range(angle):
+    theta = np.radians(angle)  # Convert angle to radians
+    return (v0**2 * np.sin(2 * theta)) / g
+
+# Angles (0 to 90 degrees)
+angles = np.linspace(0, 90, 500)
+ranges = [calculate_range(angle) for angle in angles]
+
+# Plotting
+plt.figure(figsize=(10, 6))
+plt.plot(angles, ranges, label='Range vs Angle')
+plt.title('Range as a Function of the Angle of Projection')
+plt.xlabel('Angle of Projection (degrees)')
+plt.ylabel('Range (m)')
+plt.axvline(45, color='red', linestyle='--', label='Optimal Angle (45°)')
+plt.legend()
+plt.grid()
+plt.show()
+
+# Additional Output
+optimal_range = calculate_range(45)
+print(f"The optimal range is {optimal_range:.2f} meters at a projection angle of 45 degrees.")
+```
