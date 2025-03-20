@@ -79,6 +79,34 @@ $$
 - $$\Theta$$: Depends on the driving frequency $$\omega$$, damping $$b$$, and natural frequency $$\omega_0 = \sqrt{\frac{g}{L}}$$.
 - $$\phi$$: Indicates how the motion lags behind the driving force.
 
+---
+
+## 3. Resonance Conditions and Energy Implications
+
+### Resonance Condition
+
+Resonance occurs when the driving frequency $$\omega$$ matches the natural frequency $$\omega_0$$:
+
+$$
+\omega = \omega_0 = \sqrt{\frac{g}{L}}
+$$
+
+At resonance, the denominator of the amplitude equation is minimized:
+
+$$
+\Theta_{\text{resonance}} = \frac{A}{b\omega_0}
+$$
+
+This results in a maximum amplitude of oscillation, limited only by damping ($$b$$).
+
+### Implications for System's Energy
+
+1. **Energy Transfer**: At resonance, the driving force is perfectly in phase with the pendulum's motion, allowing maximum energy transfer.
+2. **Large Amplitudes**: Without damping ($$b = 0$$), the amplitude $$\Theta$$ would grow indefinitely at resonance, causing instability. However, damping dissipates energy and limits amplitude.
+3. **Practical Systems**:
+   - **Mechanical Systems**: Resonance can lead to catastrophic failures (e.g., bridge oscillations).
+   - **Energy Harvesting**: Resonance can be exploited for efficient energy transfer in devices like pendulum-based generators.
+   
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
