@@ -9,3 +9,10 @@ The horizontal range $R$ of a projectile is defined as:
 $$
 R = \frac{v_0^2 \sin(2\theta)}{g}
 $$
+
+where:
+- $v_0$: Initial velocity $m/s$
+- $\theta$: Angle of projection $degrees$
+- $g$: Acceleration due to gravity $9.81 m/s²$
+
+This equation assumes ideal conditions, neglecting air resistance and other real-world factors.
