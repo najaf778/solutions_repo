@@ -5,9 +5,9 @@
 ## 1. Differential Equation Governing the Motion
 The motion of the forced damped pendulum is governed by the following second-order nonlinear differential equation:
 
-\[
+$$
 \frac{d^2\theta}{dt^2} + b\frac{d\theta}{dt} + \frac{g}{L}\sin\theta = A\cos(\omega t)
-\]
+$$
 
 ```python
 import numpy as np
