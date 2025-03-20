@@ -228,6 +228,26 @@
 <li><span class="arithmatex">\(<span class="arithmatex">\(\Theta\)</span>\)</span>: Depends on the driving frequency <span class="arithmatex">\(<span class="arithmatex">\(\omega\)</span>\)</span>, damping <span class="arithmatex">\(<span class="arithmatex">\(b\)</span>\)</span>, and natural frequency <span class="arithmatex">\(<span class="arithmatex">\(\omega_0 = \sqrt{\frac{g}{L}}\)</span>\)</span>.</li>
 <li><span class="arithmatex">\(<span class="arithmatex">\(\phi\)</span>\)</span>: Indicates how the motion lags behind the driving force.</li>
 </ul>
+<hr/>
+<h2 id="3-resonance-conditions-and-energy-implications">3. Resonance Conditions and Energy Implications</h2>
+<h3 id="resonance-condition">Resonance Condition</h3>
+<p>Resonance occurs when the driving frequency <span class="arithmatex">\(<span class="arithmatex">\(\omega\)</span>\)</span> matches the natural frequency <span class="arithmatex">\(<span class="arithmatex">\(\omega_0\)</span>\)</span>:</p>
+<div class="arithmatex">\[
+\omega = \omega_0 = \sqrt{\frac{g}{L}}
+\]</div>
+<p>At resonance, the denominator of the amplitude equation is minimized:</p>
+<div class="arithmatex">\[
+\Theta_{\text{resonance}} = \frac{A}{b\omega_0}
+\]</div>
+<p>This results in a maximum amplitude of oscillation, limited only by damping (<span class="arithmatex">\(<span class="arithmatex">\(b\)</span>\)</span>).</p>
+<h3 id="implications-for-systems-energy">Implications for System's Energy</h3>
+<ol>
+<li><strong>Energy Transfer</strong>: At resonance, the driving force is perfectly in phase with the pendulum's motion, allowing maximum energy transfer.</li>
+<li><strong>Large Amplitudes</strong>: Without damping (<span class="arithmatex">\(<span class="arithmatex">\(b = 0\)</span>\)</span>), the amplitude <span class="arithmatex">\(<span class="arithmatex">\(\Theta\)</span>\)</span> would grow indefinitely at resonance, causing instability. However, damping dissipates energy and limits amplitude.</li>
+<li><strong>Practical Systems</strong>:</li>
+<li><strong>Mechanical Systems</strong>: Resonance can lead to catastrophic failures (e.g., bridge oscillations).</li>
+<li><strong>Energy Harvesting</strong>: Resonance can be exploited for efficient energy transfer in devices like pendulum-based generators.</li>
+</ol>
 <pre><code class="language-python">import numpy as np
 import matplotlib.pyplot as plt
 from scipy.integrate import solve_ivp
