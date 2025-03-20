@@ -52,6 +52,8 @@
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#governing-equations">Governing Equations</a>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="#python-implementation">Python Implementation</a>
+</li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../Problem_2/">Problem 2</a>
@@ -188,6 +190,38 @@ R = \frac{v_0^2 \sin(2\theta)}{g}
 - <span class="arithmatex">\(\theta\)</span>: Angle of projection <span class="arithmatex">\(degrees\)</span>
 - <span class="arithmatex">\(g\)</span>: Acceleration due to gravity <span class="arithmatex">\(9.81 m/s²\)</span></p>
 <p>This equation assumes ideal conditions, neglecting air resistance and other real-world factors.</p>
+<h2 id="python-implementation">Python Implementation</h2>
+<pre><code class="language-python">import numpy as np
+import matplotlib.pyplot as plt
+
+# Constants
+g = 9.81  # Gravitational acceleration (m/s^2)
+v0 = 50   # Initial velocity (m/s)
+
+# Function to calculate range
+def calculate_range(angle):
+    theta = np.radians(angle)  # Convert angle to radians
+    return (v0**2 * np.sin(2 * theta)) / g
+
+# Angles (0 to 90 degrees)
+angles = np.linspace(0, 90, 500)
+ranges = [calculate_range(angle) for angle in angles]
+
+# Plotting
+plt.figure(figsize=(10, 6))
+plt.plot(angles, ranges, label='Range vs Angle')
+plt.title('Range as a Function of the Angle of Projection')
+plt.xlabel('Angle of Projection (degrees)')
+plt.ylabel('Range (m)')
+plt.axvline(45, color='red', linestyle='--', label='Optimal Angle (45°)')
+plt.legend()
+plt.grid()
+plt.show()
+
+# Additional Output
+optimal_range = calculate_range(45)
+print(f"The optimal range is {optimal_range:.2f} meters at a projection angle of 45 degrees.")
+</code></pre>
 </div>
 </div><footer>
 <div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
