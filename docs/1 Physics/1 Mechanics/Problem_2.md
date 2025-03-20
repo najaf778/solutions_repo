@@ -219,6 +219,6 @@ plt.show()
 
 <img title="a title" alt="Alt text" src="/docs/1 Physics/1 Mechanics/imagephysics1.png">
 
-<img title="a title" alt="Alt text" src="/docs/1 Physics/1 Mechanics/imagephysics2.png">
+<img title="a title" alt="Alt text" src="/docs/1 Physics/1 Mechanics/imagephsyics2.png">
 
 https://colab.research.google.com/drive/1z3rXVn59Yw0YD7s-eDadJzGF4U9LV8H7?usp=sharing
