@@ -22,6 +22,62 @@ This equation captures the combined effects of:
 2. Damping torque $$-b\frac{d\theta}{dt}$$.
 3. Driving torque $$A\cos(\omega t)$$.
 
+---
+
+## 2. Approximate Solutions for Small-Angle Oscillations
+
+For small angular displacements ($$\theta \ll 1$$), we can use the small-angle approximation:
+
+$$
+\sin\theta \approx \theta
+$$
+
+Substituting this approximation into the governing equation:
+
+$$
+\frac{d^2\theta}{dt^2} + b\frac{d\theta}{dt} + \frac{g}{L}\theta = A\cos(\omega t)
+$$
+
+This is now a **linear differential equation** that can be solved analytically.
+
+### Solution of the Linearized Equation
+
+The solution consists of two parts:
+1. **Transient Solution**: Depends on initial conditions and decays due to damping ($$b$$).
+2. **Steady-State Solution**: A sinusoidal solution synchronized with the driving force.
+
+Let the steady-state solution be:
+
+$$
+\theta(t) = \Theta \cos(\omega t - \phi)
+$$
+
+where:
+- $$\Theta$$: Amplitude of oscillation.
+- $$\phi$$: Phase difference between the driving force and pendulum motion.
+
+Substitute this into the linearized equation:
+
+$$
+-\omega^2\Theta\cos(\omega t - \phi) + b\omega\Theta\sin(\omega t - \phi) + \frac{g}{L}\Theta\cos(\omega t - \phi) = A\cos(\omega t)
+$$
+
+Using trigonometric identities and matching coefficients, the amplitude $$\Theta$$ is:
+
+$$
+\Theta = \frac{A}{\sqrt{\left(\frac{g}{L} - \omega^2\right)^2 + (b\omega)^2}}
+$$
+
+and the phase difference $$\phi$$ is:
+
+$$
+\tan\phi = \frac{b\omega}{\frac{g}{L} - \omega^2}
+$$
+
+### Interpretation
+
+- $$\Theta$$: Depends on the driving frequency $$\omega$$, damping $$b$$, and natural frequency $$\omega_0 = \sqrt{\frac{g}{L}}$$.
+- $$\phi$$: Indicates how the motion lags behind the driving force.
 
 ```python
 import numpy as np
