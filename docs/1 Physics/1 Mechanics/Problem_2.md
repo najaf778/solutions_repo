@@ -216,3 +216,7 @@ plt.grid()
 plt.show()
 
 ```
+
+najaf778/solutions_repo/docs/1 Physics/1 Mechanics/imagephysics1.png
+
+najaf778/solutions_repo/docs/1 Physics/1 Mechanics/imagephsyics2.png
