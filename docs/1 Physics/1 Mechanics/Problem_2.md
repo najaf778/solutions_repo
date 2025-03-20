@@ -15,7 +15,7 @@ where:
 - $$\frac{d\theta}{dt}$$: Angular velocity.
 - $$b$$: Damping coefficient (describing resistive forces like air drag or friction).
 - $$\frac{g}{L}$$: Restoring force per unit angular displacement ($$g$$ is gravitational acceleration and $$L$$ is pendulum length).
-- $$A\cos(\omega t)$$: External periodic driving force with amplitude $$A$$ and angular frequency $$\omega$$.
+ -$$A\cos(\omega t)$$: External periodic driving force with amplitude $$A$$ and angular frequency $$\omega$$.
 
 This equation captures the combined effects of:
 1. The restoring torque $$-\frac{g}{L}\sin\theta$$.
