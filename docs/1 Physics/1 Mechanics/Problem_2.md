@@ -97,7 +97,7 @@ $$
 \Theta_{\text{resonance}} = \frac{A}{b\omega_0}
 $$
 
-This results in a maximum amplitude of oscillation, limited only by damping ($$b$$).
+This  results in a maximum amplitude of oscillation, limited only by damping ($$b$$).
 
 ### Implications for System's Energy
 
@@ -106,7 +106,7 @@ This results in a maximum amplitude of oscillation, limited only by damping ($$b
 3. **Practical Systems**:
    - **Mechanical Systems**: Resonance can lead to catastrophic failures (e.g., bridge oscillations).
    - **Energy Harvesting**: Resonance can be exploited for efficient energy transfer in devices like pendulum-based generators.
-   
+
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
