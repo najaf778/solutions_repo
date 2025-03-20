@@ -1,4 +1,4 @@
-#Problem_1
+## Solution
 
 ## Projectile Motion Analysis
 
