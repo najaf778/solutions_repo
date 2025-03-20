@@ -10,12 +10,12 @@ $$
 $$
 
 where:
-- $$\theta(t)$$: Angular displacement of the pendulum at time $$t$$ (in radians).
-- $$\frac{d^2\theta}{dt^2}$$: Angular acceleration.
-- $$\frac{d\theta}{dt}$$: Angular velocity.
-- $$b$$: Damping coefficient (describing resistive forces like air drag or friction).
-- $$\frac{g}{L}$$: Restoring force per unit angular displacement ($$g$$ is gravitational acceleration and $$L$$ is pendulum length).
-- $$A\cos(\omega t)$$: External periodic driving force with amplitude $$A$$ and angular frequency $$\omega$$.
+$$\theta(t)$$: Angular displacement of the pendulum at time $$t$$ (in radians).
+$$\frac{d^2\theta}{dt^2}$$: Angular acceleration.
+$$\frac{d\theta}{dt}$$: Angular velocity.
+$$b$$: Damping coefficient (describing resistive forces like air drag or friction).
+$$\frac{g}{L}$$: Restoring force per unit angular displacement ($$g$$ is gravitational acceleration and $$L$$ is pendulum length).
+$$A\cos(\omega t)$$: External periodic driving force with amplitude $$A$$ and angular frequency $$\omega$$.
 
 ```python
 import numpy as np
