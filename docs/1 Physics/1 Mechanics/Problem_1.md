@@ -15,7 +15,7 @@ $$
 where:
  - $v_0$: Initial velocity $m/s$.
  - $\theta$: Angle of projection degrees.
- - $g$: Acceleration due to gravity $9.81 m/s²$.
+ - $g$: Acceleration due to gravity $9.81 m/s^2$.
 
 This equation assumes ideal conditions, neglecting air resistance and other real-world factors.
 
