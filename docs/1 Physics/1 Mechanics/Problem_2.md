@@ -107,4 +107,5 @@ plt.xlabel("Driving Force Amplitude (A)")
 plt.ylabel("Theta (angle)")
 plt.grid()
 plt.show()
+
 ```
