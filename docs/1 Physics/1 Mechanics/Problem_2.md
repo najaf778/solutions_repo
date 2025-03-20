@@ -17,6 +17,13 @@ where:
 - $$\frac{g}{L}$$: Restoring force per unit angular displacement ($$g$$ is gravitational acceleration and $$L$$ is pendulum length).
 - $$A\cos(\omega t)$$: External periodic driving force with amplitude $$A$$ and angular frequency $$\omega$$.
 
+
+This equation captures the combined effects of:
+1. The restoring torque $$-\frac{g}{L}\sin\theta$$.
+2. Damping torque $$-b\frac{d\theta}{dt}$$.
+3. Driving torque $$A\cos(\omega t)$$.
+
+
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
