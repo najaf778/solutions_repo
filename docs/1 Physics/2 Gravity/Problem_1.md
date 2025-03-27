@@ -87,3 +87,4 @@ Kepler’s Third Law is a fundamental tool in astronomy, linking planetary motio
 - **Orbital Period:** Approximately 27.3 days.
 - **Average Distance:** Roughly 384,400 km.
 - **Application:**
+Using the formula $$M_{\text{Earth}} = \frac{4\pi^2 r^3}{G T^2},$$ astronomers can calculate Earth's mass. Measurements from the Moon’s motion yield a value consistent with independent estimates, demonstrating the law's accuracy in our own celestial backyard.
