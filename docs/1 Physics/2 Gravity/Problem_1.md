@@ -78,7 +78,7 @@ Kepler’s Law aids in finding exoplanets via transit and radial velocity method
 - Systems following $$T^2 \propto r^3$$ are gravitationally stable.  
 - Deviations suggest additional planets or unseen mass (e.g., dark matter in galaxies).
 
-### Conclusion  
+### Conclusion
 Kepler’s Third Law is a fundamental tool in astronomy, linking planetary motion to gravitational interactions across the universe.
 
 ## Real-World Examples of Kepler’s Third Law
@@ -88,3 +88,5 @@ Kepler’s Third Law is a fundamental tool in astronomy, linking planetary motio
 - **Average Distance:** Roughly 384,400 km.
 - **Application:**
 Using the formula $$M_{\text{Earth}} = \frac{4\pi^2 r^3}{G T^2},$$ astronomers can calculate Earth's mass. Measurements from the Moon’s motion yield a value consistent with independent estimates, demonstrating the law's accuracy in our own celestial backyard.
+
+![alt text](vokt.png)
