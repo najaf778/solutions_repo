@@ -16,4 +16,14 @@ $$
 F_c = m \frac{v^2}{r}
 $$
 
-Equating $$F_g = F_c$$:
+Equating $$F_g = F_c$$ :
+
+$$
+\frac{G M m}{r^2} = m \frac{v^2}{r}
+$$
+
+Canceling $$m$$ :
+
+$$
+\frac{G M}{r^2} = \frac{v^2}{r}
+$$
