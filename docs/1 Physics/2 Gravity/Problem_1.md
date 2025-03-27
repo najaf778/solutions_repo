@@ -128,7 +128,7 @@ Kepler’s Third Law is a fundamental tool for understanding orbital mechanics, 
 
 
 ## Here’s a simulation to verify Kepler’s Third Law for circular orbits.
-![alt text](vurk.png)
+![alt text](turk.png)
 
 ## Conclusion on general
 
