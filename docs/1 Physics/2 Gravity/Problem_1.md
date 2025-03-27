@@ -67,3 +67,13 @@ Kepler’s Third Law $$T^2 \propto r^3$$ plays a key role in understanding celes
 
 ### 1. Calculating Planetary Masses  
 Using $$M = \frac{4\pi^2 r^3}{G T^2}$$ we can determine the mass of a central body (e.g., the Sun, exoplanet host stars, or giant planets) by observing orbiting objects.
+
+### 2. Measuring Distances  
+If an object's orbital period is known, its distance can be calculated. This was historically used to estimate Solar System dimensions.  
+
+### 3. Exoplanet Detection  
+Kepler’s Law aids in finding exoplanets via transit and radial velocity methods, helping estimate their orbits and masses.
+
+### 4. Orbital Stability & Dark Matter  
+- Systems following $$T^2 \propto r^3$$ are gravitationally stable.  
+- Deviations suggest additional planets or unseen mass (e.g., dark matter in galaxies).
