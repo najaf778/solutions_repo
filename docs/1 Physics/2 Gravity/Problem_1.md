@@ -80,3 +80,10 @@ Kepler’s Law aids in finding exoplanets via transit and radial velocity method
 
 ### Conclusion  
 Kepler’s Third Law is a fundamental tool in astronomy, linking planetary motion to gravitational interactions across the universe.
+
+## Real-World Examples of Kepler’s Third Law
+
+### 1. The Moon's Orbit Around Earth
+- **Orbital Period:** Approximately 27.3 days.
+- **Average Distance:** Roughly 384,400 km.
+- **Application:**
