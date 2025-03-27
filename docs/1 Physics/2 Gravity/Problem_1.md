@@ -16,4 +16,4 @@ $$
 F_c = m \frac{v^2}{r}
 $$
 
-Equating $$ F_g = F_c $$:
+Equating $$F_g = F_c$$:
