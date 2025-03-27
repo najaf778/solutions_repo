@@ -28,7 +28,7 @@ $$
 \frac{G M}{r^2} = \frac{v^2}{r}
 $$
 
-Multiplying by $$r$$:
+Multiplying by $$r$$ :
 
 $$
 v^2 = \frac{G M}{r}
