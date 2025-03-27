@@ -66,6 +66,4 @@ $$
 Kepler’s Third Law $$T^2 \propto r^3$$ plays a key role in understanding celestial mechanics.
 
 ### 1. Calculating Planetary Masses  
-Using  
-$$M = \frac{4\pi^2 r^3}{G T^2}$$
-we can determine the mass of a central body (e.g., the Sun, exoplanet host stars, or giant planets) by observing orbiting objects.
+Using $$M = \frac{4\pi^2 r^3}{G T^2}$$ we can determine the mass of a central body (e.g., the Sun, exoplanet host stars, or giant planets) by observing orbiting objects.
