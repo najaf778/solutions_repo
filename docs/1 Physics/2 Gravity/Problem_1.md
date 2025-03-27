@@ -134,4 +134,4 @@ Kepler’s Third Law is a fundamental tool for understanding orbital mechanics, 
 
 Kepler's Third Law helps calculate orbital periods based on the central mass and orbital radius. By comparing planets orbiting different central masses (like the Sun and hypothetical stars), we see that a larger central mass results in shorter orbital periods. This relationship is key to understanding planetary and exoplanetary systems. The log-log plot highlights how central mass and orbital radius influence orbital periods, with smaller masses leading to longer periods for a given radius. This law is a powerful tool for astronomers to estimate orbital periods in various celestial systems.
 
-[Google Collab] (https://colab.research.google.com/drive/1epf4R5hQX6hPT-HhrGcgc2JgZOW6EpdO?usp=sharing)
+[Google Collab](https://colab.research.google.com/drive/1epf4R5hQX6hPT-HhrGcgc2JgZOW6EpdO?usp=sharing)
