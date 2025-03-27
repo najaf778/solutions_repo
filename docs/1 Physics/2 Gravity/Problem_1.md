@@ -60,5 +60,3 @@ Thus,
 $$
 T^2 \propto r^3
 $$
-
-Kepler’s Third Law is derived.
