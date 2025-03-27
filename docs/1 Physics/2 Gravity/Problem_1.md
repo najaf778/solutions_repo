@@ -92,9 +92,9 @@ Using the formula $$M_{\text{Earth}} = \frac{4\pi^2 r^3}{G T^2},$$ astronomers c
 ### 2. Planetary Orbits in the Solar System
 - **General Relationship:**  
   Every planet's orbital period $$T$$ and average distance $$r$$ from the Sun obey  
-  $$
+$$
   T^2 \propto r^3.
-  $$
+$$
 - **Example: Earth and Mars**
   - **Earth:** 1 year period at 1 astronomical unit (AU).
   - **Mars:** Approximately 1.88 years period at about 1.52 AU.
