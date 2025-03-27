@@ -79,4 +79,4 @@ Kepler’s Law aids in finding exoplanets via transit and radial velocity method
 - Deviations suggest additional planets or unseen mass (e.g., dark matter in galaxies).
 
 ### Conclusion  
-Kepler’s Third Law is a fundamental tool in astronomy, linking planetary motion to gravitational interactions across the universe. 🚀🔭
+Kepler’s Third Law is a fundamental tool in astronomy, linking planetary motion to gravitational interactions across the universe.
