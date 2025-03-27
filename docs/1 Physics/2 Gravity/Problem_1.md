@@ -45,3 +45,20 @@ $$
 $$
 \frac{4\pi^2 r^2}{T^2} = \frac{G M}{r}
 $$
+
+Multiplying by $$r$$ :  
+$$
+4\pi^2 r^3 = G M T^2
+$$
+
+### Step 3: Final Relation  
+$$
+T^2 = \frac{4\pi^2}{G M} r^3
+$$
+
+Thus,  
+$$
+T^2 \propto r^3
+$$
+  
+Kepler’s Third Law is derived.
