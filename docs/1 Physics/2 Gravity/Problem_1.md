@@ -60,3 +60,7 @@ Thus,
 $$
 T^2 \propto r^3
 $$
+
+## Implications of Kepler’s Third Law in Astronomy  
+
+Kepler’s Third Law $$T^2 \propto r^3$$ plays a key role in understanding celestial mechanics.
