@@ -38,10 +38,10 @@ $$
 ### Step 2: Expressing in Terms of Orbital Period  
 
 Using  $$v = \frac{2\pi r}{T}$$ :
+
 $$\left( \frac{2\pi r}{T} \right)^2 = \frac{G M}{r}$$
-$$
-\frac{4\pi^2 r^2}{T^2} = \frac{G M}{r}
-$$
+
+$$\frac{4\pi^2 r^2}{T^2} = \frac{G M}{r}$$
 
 Multiplying by $$r$$ : 
 
