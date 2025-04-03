@@ -150,16 +150,20 @@ These applications highlight the importance of understanding forced damped oscil
 
 ## Effects on pendulum's montion
 1) Effect of Damping: Increasing the damping coefficient reduces oscillation amplitude and speeds up energy dissipation.
-[Effect of Damping](Pendulum%20Motion.png)
+
+![Effect of Damping](Pendulum%20Motion.png)
 
 2) Effect of Driving Amplitude: Higher amplitudes lead to more pronounced oscillations and potential nonlinear effects.
-[Effect of Driving Amplitude](Pendulum%20Motion%202.png)
+
+![Effect of Driving Amplitude](Pendulum%20Motion%202.png)
 
 3) Effect of Driving Frequency: Near resonance, the response is maximized, while at high frequencies, oscillations become irregular.
-[Effect of Driving Frequency](Pendulum%20Motion%203.png)
+
+![Effect of Driving Frequency](Pendulum%20Motion%203.png)
 
 ## Visualizations of the transition from regular to chaotic motion:
-[visualization](space%20plots.png)
+
+![visualization](space%20plots.png)
 
 1. Phase Space (Regular vs. Chaotic Motion)
     - Regular motion forms smooth, closed curves.
@@ -176,7 +180,8 @@ These applications highlight the importance of understanding forced damped oscil
 
 - The bifurcation diagram offers a graphical representation of how the system's behavior changes as the driving amplitude is varied
 
-[Bifurcation Diagram](Bifurcation%20diagram.png)
+
+![Bifurcation Diagram](Bifurcation%20diagram.png)
 
 ## Conclusion
 
