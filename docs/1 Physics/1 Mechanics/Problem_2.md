@@ -173,7 +173,9 @@ These applications highlight the importance of understanding forced damped oscil
     - Regular motion follows a predictable sinusoidal oscillation.
     - Chaotic motion exhibits irregular and non-repeating behavior.
 ## Bifurcation Diagram
+
 [alt text](imagephysics1.png)
+
 ## Conclusion
 
 In conclusion, the forced damped pendulum serves as a powerful model for understanding nonlinear dynamics, from simple oscillations to chaotic behavior. Its applications extend to numerous fields, from engineering to physics, and continue to provide valuable insights into the behavior of complex systems. Understanding these dynamics helps us design more efficient energy systems, safer structures, and more stable oscillating circuits, with profound implications for both theoretical and applied science.    
