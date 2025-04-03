@@ -160,6 +160,7 @@ These applications highlight the importance of understanding forced damped oscil
 
 ## visualizations of the transition from regular to chaotic motion:
 [visualization](space%20plots.png)
+
 1. Phase Space (Regular vs. Chaotic Motion)
     - Regular motion forms smooth, closed curves.
     - Chaotic motion shows unpredictable, scattered behavior in phase space.
