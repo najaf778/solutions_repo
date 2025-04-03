@@ -174,7 +174,7 @@ These applications highlight the importance of understanding forced damped oscil
     - Chaotic motion exhibits irregular and non-repeating behavior.
 ## Bifurcation Diagram
 
-[alt text](imagephysics1.png)
+[Bifurcation Diagram](imagephysics2.png)
 
 ## Conclusion
 
