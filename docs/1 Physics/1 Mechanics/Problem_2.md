@@ -150,10 +150,10 @@ These applications highlight the importance of understanding forced damped oscil
 
 ## Effects on pendulum's montion
 1) Effect of Damping: Increasing the damping coefficient reduces oscillation amplitude and speeds up energy dissipation.
-[alt text](Pendulum%20Motion.png)
+[Effect of Damping](Pendulum%20Motion.png)
 
 2) Effect of Driving Amplitude: Higher amplitudes lead to more pronounced oscillations and potential nonlinear effects.
-[alt text](Pendulum%20Motion%202.png)
+[Effect of Driving Amplitude](Pendulum%20Motion%202.png)
 
 3) Effect of Driving Frequency: Near resonance, the response is maximized, while at high frequencies, oscillations become irregular.
-[alt text](Pendulum%20Motion%203.png)
+[Effect of Driving Frequency](Pendulum%20Motion%203.png)
