@@ -98,3 +98,6 @@ For complex scenarios (e.g., air resistance), numerical methods like Euler’s m
 ## Conslusion
 
 The study of projectile motion, particularly its range and dependence on parameters like launch angle, velocity, and gravity, provides essential insights into a variety of real-world phenomena. By understanding these relationships, we can optimize motion for practical applications, from sports to space exploration
+
+
+[Google Colab](https://colab.research.google.com/drive/1-I-A9Pedj6hjRlk3durAIV-ijCtRUuiA?usp=sharing)
