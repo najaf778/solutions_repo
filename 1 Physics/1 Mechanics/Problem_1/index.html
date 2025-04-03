@@ -48,6 +48,12 @@
 <ul class="current">
 <li class="toctree-l2 current"><a class="reference internal current" href="#">Problem 1</a>
 <ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="#theoretical-foundation-of-projectile-motion">Theoretical Foundation of Projectile Motion</a>
+<ul>
+<li class="toctree-l4"><a class="reference internal" href="#step-1-deriving-the-governing-equations">Step 1: Deriving the Governing Equations</a>
+</li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../Problem_2/">Problem 2</a>
@@ -171,7 +177,7 @@
 </div>
 <div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
 <div class="section" itemprop="articleBody">
-<h2 id="problem_1">Problem_1</h2>
+<h1 id="problem-1">Problem 1</h1>
 <h2 id="theoretical-foundation-of-projectile-motion">Theoretical Foundation of Projectile Motion</h2>
 <h3 id="step-1-deriving-the-governing-equations"><strong>Step 1: Deriving the Governing Equations</strong></h3>
 <p>Projectile motion is governed by Newton’s Second Law:</p>
@@ -188,6 +194,25 @@ m \frac{d^2 x}{dt^2} = 0
 \]</div>
 <div class="arithmatex">\[
 m \frac{d^2 y}{dt^2} = -mg
+\]</div>
+<p>Dividing by <span class="arithmatex">\(m\)</span> and integrating twice:</p>
+<h4 id="1-horizontal-motion"><strong>1. Horizontal Motion</strong></h4>
+<ul>
+<li><span class="arithmatex">\(\frac{d^2x}{dt^2} = 0\)</span> ⟶ First integration ⟶ <span class="arithmatex">\(\frac{dx}{dt} = v_{0x}\)</span> (constant)</li>
+<li>Second integration ⟶ <span class="arithmatex">\(x = v_{0x} t + x_0\)</span></li>
+</ul>
+<p>Since <span class="arithmatex">\(v_{0x} = v_0 \cos\theta\)</span>, we get:</p>
+<div class="arithmatex">\[
+x = v_0 \cos\theta \cdot t
+\]</div>
+<h4 id="2-vertical-motion"><strong>2. Vertical Motion</strong></h4>
+<ul>
+<li><span class="arithmatex">\(\frac{d^2y}{dt^2} = -g\)</span> ⟶ First integration ⟶ <span class="arithmatex">\(\frac{dy}{dt} = -gt + v_{0y}\)</span></li>
+<li>Second integration ⟶ <span class="arithmatex">\(y = -\frac{1}{2}gt^2 + v_{0y} t + y_0\)</span></li>
+</ul>
+<p>Since <span class="arithmatex">\(v_{0y} = v_0 \sin\theta\)</span>, we get:</p>
+<div class="arithmatex">\[
+y = -\frac{1}{2}gt^2 + v_0 \sin\theta \cdot t + y_0
 \]</div>
 </div>
 </div><footer>
