@@ -46,3 +46,11 @@ Since $v_{0y} = v_0 \sin\theta$, we get:
 $$
 y = -\frac{1}{2}gt^2 + v_0 \sin\theta \cdot t + y_0
 $$
+
+### **Step 2: Family of Solutions Due to Initial Conditions**
+The key initial conditions influencing projectile motion are:
+- **Initial velocity ($v_0$)**: A higher velocity results in a longer range and greater height.
+- **Angle of launch ($\theta$)**: The range depends on $\sin 2\theta$, peaking at $\theta = 45^\circ$.
+- **Initial height ($y_0$)**: A nonzero height alters flight time and can extend range.
+
+By varying these parameters, we obtain different trajectories, illustrating how a simple equation generates a rich set of solutions.
