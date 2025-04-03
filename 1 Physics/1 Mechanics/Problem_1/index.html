@@ -56,6 +56,20 @@
 </li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="#practical-applications-of-projectile-motion">Practical Applications of Projectile Motion</a>
+<ul>
+<li class="toctree-l4"><a class="reference internal" href="#1-uneven-terrain">1. Uneven Terrain</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#2-air-resistance">2. Air Resistance</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#3-launch-angle-and-velocity-adaptations">3. Launch Angle and Velocity Adaptations</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#4-example-applications">4. Example Applications</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#5-numerical-solutions">5. Numerical Solutions</a>
+</li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../Problem_2/">Problem 2</a>
@@ -222,6 +236,26 @@ y = -\frac{1}{2}gt^2 + v_0 \sin\theta \cdot t + y_0
 - <strong>Angle of launch (<span class="arithmatex">\(\theta\)</span>)</strong>: The range depends on <span class="arithmatex">\(\sin 2\theta\)</span>, peaking at <span class="arithmatex">\(\theta = 45^\circ\)</span>.
 - <strong>Initial height (<span class="arithmatex">\(y_0\)</span>)</strong>: A nonzero height alters flight time and can extend range.</p>
 <p>By varying these parameters, we obtain different trajectories, illustrating how a simple equation generates a rich set of solutions.</p>
+<h2 id="practical-applications-of-projectile-motion">Practical Applications of Projectile Motion</h2>
+<h3 id="1-uneven-terrain">1. <strong>Uneven Terrain</strong></h3>
+<p>When the projectile is launched on uneven terrain (with different launch and landing heights), the vertical motion equation becomes:</p>
+<div class="arithmatex">\[y = y_0 + v_0 \sin\theta \cdot t - \frac{1}{2} g t^2\]</div>
+<p>To find the range, we solve for the time when <span class="arithmatex">\(y = 0\)</span>, which may require solving a quadratic equation.</p>
+<h3 id="2-air-resistance">2. <strong>Air Resistance</strong></h3>
+<p>Air resistance modifies the trajectory, causing the projectile to deviate from the ideal parabolic path. The drag force is given by:</p>
+<div class="arithmatex">\[\vec{F}_d = - \frac{1}{2} C_d \rho A v^2 \hat{v}\]</div>
+<p>This force alters the equations of motion, resulting in non-linear differential equations that require numerical methods to solve.</p>
+<h3 id="3-launch-angle-and-velocity-adaptations">3. <strong>Launch Angle and Velocity Adaptations</strong></h3>
+<p>Real-world factors like wind and non-uniform gravity affect launch angles and velocities. For example, wind can alter both the horizontal and vertical motion of the projectile.</p>
+<h3 id="4-example-applications">4. <strong>Example Applications</strong></h3>
+<ul>
+<li><strong>Sports</strong>: In soccer or basketball, air resistance affects ball trajectories.</li>
+<li><strong>Ballistics</strong>: Air resistance and gravity are crucial for calculating missile trajectories.</li>
+<li><strong>Space Exploration</strong>: Rockets need to account for changing gravity and air resistance.</li>
+<li><strong>Engineering</strong>: Calculating trajectories for demolition charges requires adjustments for terrain and air resistance.</li>
+</ul>
+<h3 id="5-numerical-solutions">5. <strong>Numerical Solutions</strong></h3>
+<p>For complex scenarios (e.g., air resistance), numerical methods like Euler’s method or Runge-Kutta are used to approximate the motion.</p>
 </div>
 </div><footer>
 <div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
