@@ -83,6 +83,10 @@ Real-world factors like wind and non-uniform gravity affect launch angles and ve
 ### 5. **Numerical Solutions**
 For complex scenarios (e.g., air resistance), numerical methods like Euler’s method or Runge-Kutta are used to approximate the motion.
 
-### Plot showing how the range varies with the angle of projection. As expected, the range is maximized at 45°, and it symmetrically decreases for angles above and below this value.
+#### Plot showing how the range varies with the angle of projection. As expected, the range is maximized at 45°, and it symmetrically decreases for angles above and below this value
 
 ![alt text](/docs/1%20Physics/1%20Mechanics/Projectile%20Range%20vs%20Angle%20of%20Projection.png)
+
+#### Effect of Initial Velocity on Range: Higher initial velocity significantly increases the range, following a quadratic relationship
+
+![alt text](/docs/1%20Physics/1%20Mechanics/Effect%20of%20Initial%20Velocity%20on%20Range.png)
