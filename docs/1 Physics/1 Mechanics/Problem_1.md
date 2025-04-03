@@ -94,3 +94,7 @@ For complex scenarios (e.g., air resistance), numerical methods like Euler’s m
 #### Effect of Gravity on Range: Weaker gravity (e.g., on the Moon) allows for much longer travel distances, while stronger gravity (e.g., on Jupiter) greatly reduces the range.
 
 ![alt text](Effect%20of%20Gravity%20on%20Range.png)
+
+## Conslusion
+
+The study of projectile motion, particularly its range and dependence on parameters like launch angle, velocity, and gravity, provides essential insights into a variety of real-world phenomena. By understanding these relationships, we can optimize motion for practical applications, from sports to space exploration
