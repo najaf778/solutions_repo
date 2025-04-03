@@ -90,3 +90,7 @@ For complex scenarios (e.g., air resistance), numerical methods like Euler’s m
 #### Effect of Initial Velocity on Range: Higher initial velocity significantly increases the range, following a quadratic relationship
 
 ![alt text](Effect%20of%20Initial%20Velocity%20on%20Range.png)
+
+#### Effect of Gravity on Range: Weaker gravity (e.g., on the Moon) allows for much longer travel distances, while stronger gravity (e.g., on Jupiter) greatly reduces the range.
+
+![alt text](Effect%20of%20Gravity%20on%20Range.png)
