@@ -66,6 +66,26 @@
 </li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="#1-influence-of-damping-coefficient-driving-amplitude-and-driving-frequency">1) Influence of Damping Coefficient, Driving Amplitude, and Driving Frequency</a>
+<ul>
+<li class="toctree-l4"><a class="reference internal" href="#damping-coefficient-b">Damping Coefficient (\(b\))</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#driving-amplitude-a">Driving Amplitude (\(A\))</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#driving-frequency-omega">Driving Frequency (\(\omega\))</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#2-transition-between-regular-and-chaotic-motion">2) Transition Between Regular and Chaotic Motion</a>
+<ul>
+<li class="toctree-l4"><a class="reference internal" href="#phase-space-analysis">Phase Space Analysis</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#bifurcation-and-chaos">Bifurcation and Chaos</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#lyapunov-exponents">Lyapunov Exponents</a>
+</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -251,6 +271,45 @@
 <li>In the resonance condition, the absorbed energy is maximized, leading to large oscillations.</li>
 <li>If damping is low, energy builds up significantly, which can lead to system failure in engineering applications (e.g., bridges, buildings, mechanical systems).</li>
 <li>If damping is high, the system dissipates energy efficiently, preventing large oscillations.</li>
+</ul>
+<h2 id="1-influence-of-damping-coefficient-driving-amplitude-and-driving-frequency">1) Influence of Damping Coefficient, Driving Amplitude, and Driving Frequency</h2>
+<p>The behavior of the pendulum is significantly affected by three key parameters:</p>
+<h3 id="damping-coefficient-b"><strong>Damping Coefficient (<span class="arithmatex">\(b\)</span>)</strong></h3>
+<ul>
+<li><strong>High Damping (<span class="arithmatex">\(b \gg 1\)</span>)</strong>: The system quickly returns to equilibrium without oscillating (overdamped case).</li>
+<li><strong>Moderate Damping (<span class="arithmatex">\(b \approx 1\)</span>)</strong>: The system oscillates but gradually loses energy.</li>
+<li><strong>Low Damping (<span class="arithmatex">\(b \ll 1\)</span>)</strong>: The system exhibits sustained oscillations, and external driving can lead to resonance or chaos.</li>
+</ul>
+<h3 id="driving-amplitude-a"><strong>Driving Amplitude (<span class="arithmatex">\(A\)</span>)</strong></h3>
+<ul>
+<li><strong>Small <span class="arithmatex">\(A\)</span></strong>: The system undergoes nearly harmonic motion, with oscillations staying close to small-angle approximations.</li>
+<li><strong>Intermediate <span class="arithmatex">\(A\)</span></strong>: Nonlinear effects emerge, leading to more complex periodic or quasiperiodic motion.</li>
+<li><strong>Large <span class="arithmatex">\(A\)</span></strong>: The pendulum exhibits chaotic motion, including sudden jumps in phase space and sensitivity to initial conditions.</li>
+</ul>
+<h3 id="driving-frequency-omega"><strong>Driving Frequency (<span class="arithmatex">\(\omega\)</span>)</strong></h3>
+<ul>
+<li><strong>Low <span class="arithmatex">\(\omega\)</span></strong>: The system follows the external force smoothly, leading to synchronized motion.</li>
+<li><strong>Near Resonance (<span class="arithmatex">\(\omega \approx \omega_0\)</span>)</strong>: The amplitude reaches its peak, leading to large oscillations.</li>
+<li><strong>High <span class="arithmatex">\(\omega\)</span></strong>: The system cannot keep up with rapid changes, leading to erratic motion or chaotic behavior.</li>
+</ul>
+<hr/>
+<h2 id="2-transition-between-regular-and-chaotic-motion">2) Transition Between Regular and Chaotic Motion</h2>
+<p>The transition from regular to chaotic motion can be explored using:</p>
+<h3 id="phase-space-analysis"><strong>Phase Space Analysis</strong></h3>
+<ul>
+<li>For <strong>regular motion</strong>, trajectories in phase space form closed loops or tori, indicating periodic behavior.</li>
+<li>As parameters change, the system may show <strong>quasiperiodic motion</strong>, where phase space trajectories fill a surface without repeating exactly.</li>
+<li>In the <strong>chaotic regime</strong>, trajectories become unpredictable, forming strange attractors with sensitive dependence on initial conditions.</li>
+</ul>
+<h3 id="bifurcation-and-chaos"><strong>Bifurcation and Chaos</strong></h3>
+<ul>
+<li>As the driving amplitude increases, <strong>bifurcations</strong> occur, where stable periodic motion transitions to aperiodic motion.</li>
+<li>Beyond a critical threshold, <strong>chaos</strong> emerges, meaning that small changes in initial conditions lead to drastically different outcomes.</li>
+</ul>
+<h3 id="lyapunov-exponents"><strong>Lyapunov Exponents</strong></h3>
+<ul>
+<li>A key measure of chaos is the <strong>Lyapunov exponent</strong>, which quantifies how quickly nearby trajectories diverge.</li>
+<li>A <strong>positive Lyapunov exponent</strong> indicates sensitivity to initial conditions, a hallmark of chaotic behavior.</li>
 </ul>
 </div>
 </div><footer>
