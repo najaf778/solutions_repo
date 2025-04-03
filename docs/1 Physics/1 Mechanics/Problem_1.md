@@ -54,3 +54,31 @@ The key initial conditions influencing projectile motion are:
 - **Initial height ($y_0$)**: A nonzero height alters flight time and can extend range.
 
 By varying these parameters, we obtain different trajectories, illustrating how a simple equation generates a rich set of solutions.
+
+## Practical Applications of Projectile Motion
+
+### 1. **Uneven Terrain**
+When the projectile is launched on uneven terrain (with different launch and landing heights), the vertical motion equation becomes:
+
+$$y = y_0 + v_0 \sin\theta \cdot t - \frac{1}{2} g t^2$$
+
+To find the range, we solve for the time when $y = 0$, which may require solving a quadratic equation.
+
+### 2. **Air Resistance**
+Air resistance modifies the trajectory, causing the projectile to deviate from the ideal parabolic path. The drag force is given by:
+
+$$\vec{F}_d = - \frac{1}{2} C_d \rho A v^2 \hat{v}$$
+
+This force alters the equations of motion, resulting in non-linear differential equations that require numerical methods to solve.
+
+### 3. **Launch Angle and Velocity Adaptations**
+Real-world factors like wind and non-uniform gravity affect launch angles and velocities. For example, wind can alter both the horizontal and vertical motion of the projectile.
+
+### 4. **Example Applications**
+- **Sports**: In soccer or basketball, air resistance affects ball trajectories.
+- **Ballistics**: Air resistance and gravity are crucial for calculating missile trajectories.
+- **Space Exploration**: Rockets need to account for changing gravity and air resistance.
+- **Engineering**: Calculating trajectories for demolition charges requires adjustments for terrain and air resistance.
+
+### 5. **Numerical Solutions**
+For complex scenarios (e.g., air resistance), numerical methods like Euler’s method or Runge-Kutta are used to approximate the motion.
