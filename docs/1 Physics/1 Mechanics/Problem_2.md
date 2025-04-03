@@ -147,3 +147,13 @@ The forced damped pendulum model has numerous real-world applications, particula
 - Electrical oscillators in communication systems use principles of resonance to maintain stable frequencies.
 
 These applications highlight the importance of understanding forced damped oscillations in engineering, physics, and technology.
+
+## Effects on pendulum's montion
+1) Effect of Damping: Increasing the damping coefficient reduces oscillation amplitude and speeds up energy dissipation.
+[alt text](Pendulum%20Motion.png)
+
+2) Effect of Driving Amplitude: Higher amplitudes lead to more pronounced oscillations and potential nonlinear effects.
+[alt text](Pendulum%20Motion%202.png)
+
+3) Effect of Driving Frequency: Near resonance, the response is maximized, while at high frequencies, oscillations become irregular.
+[alt text](Pendulum%20Motion%203.png)
