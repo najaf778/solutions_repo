@@ -174,6 +174,8 @@ These applications highlight the importance of understanding forced damped oscil
     - Chaotic motion exhibits irregular and non-repeating behavior.
 ## Bifurcation Diagram
 
+- The bifurcation diagram offers a graphical representation of how the system's behavior changes as the driving amplitude is varied
+
 [Bifurcation Diagram](Bifurcation%20diagram.png)
 
 ## Conclusion
