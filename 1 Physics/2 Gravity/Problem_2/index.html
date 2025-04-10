@@ -285,6 +285,143 @@
 </tbody>
 </table>
 <hr/>
+<h1 id="mathematical-derivation-and-parameters-of-cosmic-velocities">Mathematical Derivation and Parameters of Cosmic Velocities</h1>
+<h2 id="1-first-cosmic-velocity-orbital-velocity_1">1. First Cosmic Velocity (Orbital Velocity)</h2>
+<h3 id="formula">Formula:</h3>
+<div class="arithmatex">\[
+v_1 = \sqrt{\frac{GM}{R}}
+\]</div>
+<ul>
+<li><span class="arithmatex">\(v_1\)</span>: first cosmic velocity (orbital speed)  </li>
+<li><span class="arithmatex">\(G\)</span>: universal gravitational constant (<span class="arithmatex">\(6.674 \times 10^{-11} \ \text{m}^3/\text{kg} \cdot \text{s}^2\)</span>)  </li>
+<li><span class="arithmatex">\(M\)</span>: mass of the planet (e.g., Earth)  </li>
+<li><span class="arithmatex">\(R\)</span>: radius from the center of the planet to the object  </li>
+</ul>
+<h3 id="derivation">Derivation:</h3>
+<p>Equating <strong>centripetal force</strong> and <strong>gravitational force</strong>:</p>
+<div class="arithmatex">\[
+\frac{mv^2}{R} = \frac{GMm}{R^2}
+\Rightarrow v = \sqrt{\frac{GM}{R}}
+\]</div>
+<h3 id="parameters-affecting-it">Parameters Affecting It:</h3>
+<ul>
+<li><strong>Mass of planet</strong> <span class="arithmatex">\(M\)</span>: ↑ → <span class="arithmatex">\(v_1\)</span> ↑  </li>
+<li><strong>Radius</strong> <span class="arithmatex">\(R\)</span>: ↑ → <span class="arithmatex">\(v_1\)</span> ↓</li>
+</ul>
+<hr/>
+<h2 id="2-second-cosmic-velocity-escape-velocity_1">2. Second Cosmic Velocity (Escape Velocity)</h2>
+<h3 id="formula_1">Formula:</h3>
+<div class="arithmatex">\[
+v_2 = \sqrt{\frac{2GM}{R}}
+\]</div>
+<h3 id="derivation_1">Derivation:</h3>
+<p>From conservation of energy:</p>
+<div class="arithmatex">\[
+\frac{1}{2}mv^2 = \frac{GMm}{R}
+\Rightarrow v = \sqrt{\frac{2GM}{R}}
+\]</div>
+<p>Relation to first velocity:
+$$
+v_2 = \sqrt{2} \cdot v_1
+$$</p>
+<h3 id="parameters-affecting-it_1">Parameters Affecting It:</h3>
+<ul>
+<li><strong>Mass of planet</strong> <span class="arithmatex">\(M\)</span>: ↑ → <span class="arithmatex">\(v_2\)</span> ↑  </li>
+<li><strong>Radius</strong> <span class="arithmatex">\(R\)</span>: ↑ → <span class="arithmatex">\(v_2\)</span> ↓  </li>
+<li>No dependence on the object’s mass</li>
+</ul>
+<hr/>
+<h2 id="3-third-cosmic-velocity-escape-from-solar-system">3. Third Cosmic Velocity (Escape from Solar System)</h2>
+<h3 id="formula_2">Formula:</h3>
+<p>From Earth’s orbit:
+$$
+v_3 = \sqrt{v_\text{escape_sun}^2 - v_\text{earth_orbit}^2}
+$$</p>
+<p>Or:
+$$
+v_3 = \sqrt{\frac{2GM_{\odot}}{r}} - v_{\text{Earth orbit}}
+$$</p>
+<p>Where:<br/>
+- <span class="arithmatex">\(M_{\odot}\)</span>: mass of the Sun<br/>
+- <span class="arithmatex">\(r\)</span>: distance from Sun (Earth’s orbit)<br/>
+- <span class="arithmatex">\(v_{\text{Earth orbit}}\)</span>: orbital speed of Earth (~29.78 km/s)</p>
+<h3 id="derivation_2">Derivation:</h3>
+<p>Total mechanical energy must be zero or more to escape Sun:</p>
+<div class="arithmatex">\[
+E = \frac{1}{2}v^2 - \frac{GM_{\odot}}{r} \ge 0
+\Rightarrow v = \sqrt{\frac{2GM_{\odot}}{r}}
+\]</div>
+<p>To find additional speed needed from Earth:
+$$
+v_3 = \sqrt{\frac{2GM_{\odot}}{r}} - v_{\text{Earth orbit}}
+$$</p>
+<h3 id="parameters-affecting-it_2">Parameters Affecting It:</h3>
+<ul>
+<li><strong>Sun's Mass</strong> <span class="arithmatex">\(M_{\odot}\)</span>: ↑ → <span class="arithmatex">\(v_3\)</span> ↑  </li>
+<li><strong>Distance from Sun</strong> <span class="arithmatex">\(r\)</span>: ↑ → <span class="arithmatex">\(v_3\)</span> ↓  </li>
+<li><strong>Launch direction</strong>: Prograde (with Earth's orbit) is efficient</li>
+</ul>
+<hr/>
+<h2 id="general-notes">General Notes</h2>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Influence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Gravitational Constant <span class="arithmatex">\(G\)</span></td>
+<td>Constant across all calculations</td>
+</tr>
+<tr>
+<td>Central Body Mass <span class="arithmatex">\(M\)</span></td>
+<td>Higher → higher required velocity</td>
+</tr>
+<tr>
+<td>Distance <span class="arithmatex">\(R\)</span></td>
+<td>Higher → lower velocity needed</td>
+</tr>
+<tr>
+<td>Launch Direction (for <span class="arithmatex">\(v_3\)</span>)</td>
+<td>Prograde launch helps; retrograde wastes energy</td>
+</tr>
+<tr>
+<td>Atmosphere</td>
+<td>Not included in these equations (ideal vacuum assumed)</td>
+</tr>
+</tbody>
+</table>
+<hr/>
+<h2 id="summary-table_1">Summary Table</h2>
+<table>
+<thead>
+<tr>
+<th>Cosmic Velocity</th>
+<th>Formula</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>First (<span class="arithmatex">\(v_1\)</span>)</td>
+<td>$ \sqrt{\frac{GM}{R}} $</td>
+<td>Orbit around planet</td>
+</tr>
+<tr>
+<td>Second (<span class="arithmatex">\(v_2\)</span>)</td>
+<td>$ \sqrt{\frac{2GM}{R}} $</td>
+<td>Escape from planet</td>
+</tr>
+<tr>
+<td>Third (<span class="arithmatex">\(v_3\)</span>)</td>
+<td>$ \sqrt{\frac{2GM_{\odot}}{r}} - v_{\text{Earth orbit}} $</td>
+<td>Escape Solar System</td>
+</tr>
+</tbody>
+</table>
+<hr/>
 </div>
 </div><footer>
 <div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
