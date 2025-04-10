@@ -106,9 +106,8 @@ $$
 $$
 
 Relation to first velocity:
-$$
-v_2 = \sqrt{2} \cdot v_1
-$$
+
+$$v_2 = \sqrt{2} \cdot v_1$$
 
 ### Parameters Affecting It:
 - **Mass of planet** $M$: ↑ → $v_2$ ↑  
@@ -121,14 +120,10 @@ $$
 
 ### Formula:
 From Earth’s orbit:
-$$
-v_3 = \sqrt{v_\text{escape\_sun}^2 - v_\text{earth\_orbit}^2}
-$$
 
-Or:
-$$
-v_3 = \sqrt{\frac{2GM_{\odot}}{r}} - v_{\text{Earth orbit}}
-$$
+$$v_3 = \sqrt{v_\text{escape\_sun}^2 - v_\text{earth\_orbit}^2}$$
+
+Or: $$v_3 = \sqrt{\frac{2GM_{\odot}}{r}} - v_{\text{Earth orbit}}$$
 
 Where:  
 - $M_{\odot}$: mass of the Sun  
@@ -171,8 +166,8 @@ $$
 
 | Cosmic Velocity | Formula | Description |
 |------------------|---------|-------------|
-| First ($v_1$) | $ \sqrt{\frac{GM}{R}} $ | Orbit around planet |
-| Second ($v_2$) | $ \sqrt{\frac{2GM}{R}} $ | Escape from planet |
-| Third ($v_3$) | $ \sqrt{\frac{2GM_{\odot}}{r}} - v_{\text{Earth orbit}} $ | Escape Solar System |
+| First ($v_1$) | $\sqrt{\frac{GM}{R}}$ | Orbit around planet |
+| Second ($v_2$) | $\sqrt{\frac{2GM}{R}}$ | Escape from planet |
+| Third ($v_3$) | $\sqrt{\frac{2GM_{\odot}}{r}} - v_{\text{Earth orbit}}$ | Escape Solar System |
 
 ---
