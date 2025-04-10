@@ -183,6 +183,12 @@ These applications highlight the importance of understanding forced damped oscil
 
 ![Bifurcation Diagram](Bifurcation%20diagram.png)
 
+## Three pendulum systems: Simple, Damped, and Forced each with a time Series (theta vs time) and phase portrait (omega vs theta)
+
+![pendulum](pendulum.png)
+
 ## Conclusion
 
 In conclusion, the forced damped pendulum serves as a powerful model for understanding nonlinear dynamics, from simple oscillations to chaotic behavior. Its applications extend to numerous fields, from engineering to physics, and continue to provide valuable insights into the behavior of complex systems. Understanding these dynamics helps us design more efficient energy systems, safer structures, and more stable oscillating circuits, with profound implications for both theoretical and applied science.    
+
+[Google Colab](https://colab.research.google.com/drive/1hobKJya9S9ibksBikNiUFmDMd2hO4Ejv?usp=sharing)
