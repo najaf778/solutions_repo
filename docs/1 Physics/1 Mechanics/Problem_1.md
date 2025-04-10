@@ -83,6 +83,72 @@ Real-world factors like wind and non-uniform gravity affect launch angles and ve
 ### 5. **Numerical Solutions**
 For complex scenarios (e.g., air resistance), numerical methods like Euler’s method or Runge-Kutta are used to approximate the motion.
 
+## Analysis of the Range
+
+## Horizontal Range and Angle of Projection
+
+The *horizontal range* $R$ of a projectile is the horizontal distance it travels before returning to the same vertical level from which it was launched (i.e., when $y = y_0$).
+
+For a projectile launched from ground level ($y_0 = 0$), the total time of flight $T$ is given by:
+
+$$
+T = \frac{2 v_0 \sin \theta}{g}
+$$
+
+The horizontal range is then:
+
+$$
+R = v_0 \cos \theta \cdot T = v_0 \cos \theta \cdot \frac{2 v_0 \sin \theta}{g}
+$$
+
+Simplifying:
+
+$$
+R = \frac{v_0^2 \sin(2\theta)}{g}
+$$
+
+This formula shows a clear dependency on the *angle of projection*:
+
+- The range is *maximum* when $\sin(2\theta) = 1$, which occurs at $2\theta = 90^\circ \Rightarrow \theta = 45^\circ$.
+- The function $\sin(2\theta)$ is symmetric about $\theta = 45^\circ$, meaning:
+  - $R(30^\circ) = R(60^\circ)$
+  - $R(10^\circ) = R(80^\circ)$, etc.
+
+---
+
+## Influence of Other Parameters
+
+### 1. *Initial Velocity $v_0$*
+
+From the range equation:
+
+$$
+R = \frac{v_0^2 \sin(2\theta)}{g}
+$$
+
+- The range increases *quadratically* with $v_0$.
+- Doubling the velocity *quadruples* the range.
+- Higher velocity = longer flight time and faster horizontal travel.
+
+### 2. *Gravitational Acceleration $g$*
+
+- The range is *inversely proportional* to $g$.
+- On planets with weaker gravity (e.g., the Moon), the same projectile would travel much farther.
+- Example:
+  - On Earth: $g \approx 9.8\, \text{m/s}^2$
+  - On Moon: $g \approx 1.6\, \text{m/s}^2 \Rightarrow R_{\text{moon}} \approx 6.1 \times R_{\text{earth}}$
+
+---
+
+## Summary
+
+- The range depends on the angle of projection via the term $\sin(2\theta)$.
+- It is *maximum at 45°* and symmetric around it.
+- Increasing *initial velocity* extends range significantly.
+- Decreasing *gravity* also increases range.
+
+These insights show how adjusting launch conditions can precisely control the motion of a projectile — a principle used in everything from sports to space travel.
+
 #### Plot showing how the range varies with the angle of projection. As expected, the range is maximized at 45°, and it symmetrically decreases for angles above and below this value
 
 ![alt text](Projectile%20Range%20vs%20Angle%20of%20Projection.png)
