@@ -153,6 +153,49 @@ These insights show how adjusting launch conditions can precisely control the mo
 
 ![alt text](Projectile%20Range%20vs%20Angle%20of%20Projection.png)
 
+#### Explanation of Range and Why 45° Gives Maximum Distance
+
+#### Analysis of the Graphs
+
+![alt text](range.png)
+
+### **Graph (a)**
+- This graph illustrates the motion trajectories for different initial velocities (30 m/s, 40 m/s, 50 m/s) at a launch angle of **45°**.
+- As seen from the graph:
+  - **Higher initial velocity increases both the maximum height and horizontal distance (range).**
+
+### **Graph (b)**
+- This graph shows motion trajectories for various launch angles (15°, 30°, 45°, 60°, 75°) at a fixed initial velocity of **50 m/s**.
+- Observations:
+  - **The 45° launch angle provides the maximum horizontal range** compared to other angles.
+  - Launch angles less than or greater than 45° result in shorter ranges.
+
+---
+
+## Why 45° Maximizes the Range
+
+The horizontal range of a projectile is determined by the formula:
+
+$$
+R = \frac{v_0^2 \sin(2\theta)}{g}
+$$
+
+### Key Points:
+1. **Dependency on Sin Function**:
+   - The range is directly proportional to $\sin(2\theta)$.
+   - The maximum value of $\sin(2\theta)$ is **1**, which occurs when $2\theta = 90^\circ$. 
+   - Thus, the maximum range is achieved when $\theta = 45^\circ$.
+
+2. **Symmetry**:
+   - The $\sin(2\theta)$ term is symmetric about $45^\circ$, meaning:
+     - $R(30^\circ) = R(60^\circ)$
+     - $R(15^\circ) = R(75^\circ)$, etc.
+
+### Real-Life Application:
+The 45° angle is optimal for maximum horizontal distance, which explains its use in sports (e.g., throwing a javelin, hitting a baseball for maximum range) and ballistics.
+
+---
+
 #### Effect of Initial Velocity on Range: Higher initial velocity significantly increases the range, following a quadratic relationship
 
 ![alt text](Effect%20of%20Initial%20Velocity%20on%20Range.png)
