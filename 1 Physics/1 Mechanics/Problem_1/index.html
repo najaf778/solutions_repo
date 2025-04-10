@@ -70,6 +70,28 @@
 </li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="#analysis-of-the-range">Analysis of the Range</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#horizontal-range-and-angle-of-projection">Horizontal Range and Angle of Projection</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#influence-of-other-parameters">Influence of Other Parameters</a>
+<ul>
+<li class="toctree-l4"><a class="reference internal" href="#1-initial-velocity-v_0">1. Initial Velocity \(v_0\)</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#2-gravitational-acceleration-g">2. Gravitational Acceleration \(g\)</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#summary">Summary</a>
+<ul>
+<li class="toctree-l4"><a class="reference internal" href="#plot-showing-how-the-range-varies-with-the-angle-of-projection-as-expected-the-range-is-maximized-at-45-and-it-symmetrically-decreases-for-angles-above-and-below-this-value">Plot showing how the range varies with the angle of projection. As expected, the range is maximized at 45°, and it symmetrically decreases for angles above and below this value</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#effect-of-initial-velocity-on-range-higher-initial-velocity-significantly-increases-the-range-following-a-quadratic-relationship">Effect of Initial Velocity on Range: Higher initial velocity significantly increases the range, following a quadratic relationship</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#effect-of-gravity-on-range-weaker-gravity-eg-on-the-moon-allows-for-much-longer-travel-distances-while-stronger-gravity-eg-on-jupiter-greatly-reduces-the-range">Effect of Gravity on Range: Weaker gravity (e.g., on the Moon) allows for much longer travel distances, while stronger gravity (e.g., on Jupiter) greatly reduces the range.</a>
+</li>
+</ul>
+</li>
 <li class="toctree-l3"><a class="reference internal" href="#conslusion">Conslusion</a>
 </li>
 </ul>
@@ -258,6 +280,57 @@ y = -\frac{1}{2}gt^2 + v_0 \sin\theta \cdot t + y_0
 </ul>
 <h3 id="5-numerical-solutions">5. <strong>Numerical Solutions</strong></h3>
 <p>For complex scenarios (e.g., air resistance), numerical methods like Euler’s method or Runge-Kutta are used to approximate the motion.</p>
+<h2 id="analysis-of-the-range">Analysis of the Range</h2>
+<h2 id="horizontal-range-and-angle-of-projection">Horizontal Range and Angle of Projection</h2>
+<p>The <em>horizontal range</em> <span class="arithmatex">\(R\)</span> of a projectile is the horizontal distance it travels before returning to the same vertical level from which it was launched (i.e., when <span class="arithmatex">\(y = y_0\)</span>).</p>
+<p>For a projectile launched from ground level (<span class="arithmatex">\(y_0 = 0\)</span>), the total time of flight <span class="arithmatex">\(T\)</span> is given by:</p>
+<div class="arithmatex">\[
+T = \frac{2 v_0 \sin \theta}{g}
+\]</div>
+<p>The horizontal range is then:</p>
+<div class="arithmatex">\[
+R = v_0 \cos \theta \cdot T = v_0 \cos \theta \cdot \frac{2 v_0 \sin \theta}{g}
+\]</div>
+<p>Simplifying:</p>
+<div class="arithmatex">\[
+R = \frac{v_0^2 \sin(2\theta)}{g}
+\]</div>
+<p>This formula shows a clear dependency on the <em>angle of projection</em>:</p>
+<ul>
+<li>The range is <em>maximum</em> when <span class="arithmatex">\(\sin(2\theta) = 1\)</span>, which occurs at <span class="arithmatex">\(2\theta = 90^\circ \Rightarrow \theta = 45^\circ\)</span>.</li>
+<li>The function <span class="arithmatex">\(\sin(2\theta)\)</span> is symmetric about <span class="arithmatex">\(\theta = 45^\circ\)</span>, meaning:</li>
+<li><span class="arithmatex">\(R(30^\circ) = R(60^\circ)\)</span></li>
+<li><span class="arithmatex">\(R(10^\circ) = R(80^\circ)\)</span>, etc.</li>
+</ul>
+<hr/>
+<h2 id="influence-of-other-parameters">Influence of Other Parameters</h2>
+<h3 id="1-initial-velocity-v_0">1. <em>Initial Velocity <span class="arithmatex">\(v_0\)</span></em></h3>
+<p>From the range equation:</p>
+<div class="arithmatex">\[
+R = \frac{v_0^2 \sin(2\theta)}{g}
+\]</div>
+<ul>
+<li>The range increases <em>quadratically</em> with <span class="arithmatex">\(v_0\)</span>.</li>
+<li>Doubling the velocity <em>quadruples</em> the range.</li>
+<li>Higher velocity = longer flight time and faster horizontal travel.</li>
+</ul>
+<h3 id="2-gravitational-acceleration-g">2. <em>Gravitational Acceleration <span class="arithmatex">\(g\)</span></em></h3>
+<ul>
+<li>The range is <em>inversely proportional</em> to <span class="arithmatex">\(g\)</span>.</li>
+<li>On planets with weaker gravity (e.g., the Moon), the same projectile would travel much farther.</li>
+<li>Example:</li>
+<li>On Earth: <span class="arithmatex">\(g \approx 9.8\, \text{m/s}^2\)</span></li>
+<li>On Moon: <span class="arithmatex">\(g \approx 1.6\, \text{m/s}^2 \Rightarrow R_{\text{moon}} \approx 6.1 \times R_{\text{earth}}\)</span></li>
+</ul>
+<hr/>
+<h2 id="summary">Summary</h2>
+<ul>
+<li>The range depends on the angle of projection via the term <span class="arithmatex">\(\sin(2\theta)\)</span>.</li>
+<li>It is <em>maximum at 45°</em> and symmetric around it.</li>
+<li>Increasing <em>initial velocity</em> extends range significantly.</li>
+<li>Decreasing <em>gravity</em> also increases range.</li>
+</ul>
+<p>These insights show how adjusting launch conditions can precisely control the motion of a projectile — a principle used in everything from sports to space travel.</p>
 <h4 id="plot-showing-how-the-range-varies-with-the-angle-of-projection-as-expected-the-range-is-maximized-at-45-and-it-symmetrically-decreases-for-angles-above-and-below-this-value">Plot showing how the range varies with the angle of projection. As expected, the range is maximized at 45°, and it symmetrically decreases for angles above and below this value</h4>
 <p><img alt="alt text" src="../Projectile%20Range%20vs%20Angle%20of%20Projection.png"/></p>
 <h4 id="effect-of-initial-velocity-on-range-higher-initial-velocity-significantly-increases-the-range-following-a-quadratic-relationship">Effect of Initial Velocity on Range: Higher initial velocity significantly increases the range, following a quadratic relationship</h4>
