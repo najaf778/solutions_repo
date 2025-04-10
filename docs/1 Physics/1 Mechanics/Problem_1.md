@@ -130,7 +130,7 @@ $$
 - Doubling the velocity *quadruples* the range.
 - Higher velocity = longer flight time and faster horizontal travel.
 
-### 2. *Gravitational Acceleration $g$*
+### 2. Gravitational Acceleration $g$
 
 - The range is *inversely proportional* to $g$.
 - On planets with weaker gravity (e.g., the Moon), the same projectile would travel much farther.
