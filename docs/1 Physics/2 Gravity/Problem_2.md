@@ -194,15 +194,13 @@ We will calculate the **first** (orbital) and **second** (escape) cosmic velocit
 
 ## Formulas
 
-- First Cosmic Velocity (orbital speed):  
-  $$
-  v_1 = \sqrt{\frac{GM}{R}}
-  $$
+- First Cosmic Velocity (orbital speed):
 
-- Second Cosmic Velocity (escape speed):  
-  $$
-  v_2 = \sqrt{\frac{2GM}{R}}
-  $$
+$$v_1 = \sqrt{\frac{GM}{R}}$$
+
+- Second Cosmic Velocity (escape speed):
+
+$$v_2 = \sqrt{\frac{2GM}{R}}$$
 
 ---
 
