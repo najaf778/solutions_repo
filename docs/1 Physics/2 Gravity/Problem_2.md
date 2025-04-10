@@ -123,7 +123,9 @@ From Earth’s orbit:
 
 $$v_3 = \sqrt{v_\text{escape\_sun}^2 - v_\text{earth\_orbit}^2}$$
 
-Or: $$v_3 = \sqrt{\frac{2GM_{\odot}}{r}} - v_{\text{Earth orbit}}$$
+Or: 
+
+$$v_3 = \sqrt{\frac{2GM_{\odot}}{r}} - v_{\text{Earth orbit}}$$
 
 Where:  
 - $M_{\odot}$: mass of the Sun  
