@@ -118,7 +118,7 @@ This formula shows a clear dependency on the *angle of projection*:
 
 ## Influence of Other Parameters
 
-### 1. *Initial Velocity $v_0$*
+### 1. Initial Velocity $v_0$
 
 From the range equation:
 
