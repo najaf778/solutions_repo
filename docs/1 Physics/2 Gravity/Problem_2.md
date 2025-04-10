@@ -173,3 +173,51 @@ $$
 | Third ($v_3$) | $\sqrt{\frac{2GM_{\odot}}{r}} - v_{\text{Earth orbit}}$ | Escape Solar System |
 
 ---
+
+# Calculating and visualizing cosmic velocities for different celestial bodies
+
+We will calculate the **first** (orbital) and **second** (escape) cosmic velocities for:
+
+- Earth  
+- Mars  
+- Jupiter
+
+## Constants
+
+| Parameter | Earth | Mars | Jupiter |
+|----------|-------|------|---------|
+| Mass $M$ (kg) | $5.972 \times 10^{24}$ | $6.417 \times 10^{23}$ | $1.898 \times 10^{27}$ |
+| Radius $R$ (m) | $6.371 \times 10^6$ | $3.390 \times 10^6$ | $6.9911 \times 10^7$ |
+| $G$ | $6.674 \times 10^{-11} \ \text{m}^3/\text{kg} \cdot \text{s}^2$ |
+
+---
+
+## Formulas
+
+- First Cosmic Velocity (orbital speed):  
+  $$
+  v_1 = \sqrt{\frac{GM}{R}}
+  $$
+
+- Second Cosmic Velocity (escape speed):  
+  $$
+  v_2 = \sqrt{\frac{2GM}{R}}
+  $$
+
+---
+
+## Calculated Values
+
+| Body     | $v_1$ (km/s) | $v_2$ (km/s) |
+|----------|--------------|--------------|
+| Earth    | 7.91         | 11.19        |
+| Mars     | 3.55         | 5.03         |
+| Jupiter  | 42.1         | 59.5         |
+
+> Note: $v_2 = \sqrt{2} \cdot v_1$, so values are internally consistent.
+
+---
+
+## Visualization 
+
+![bar chart](firsst%20and%20second%20cosmic%20velocities%20for%20different%20celestial%20bodies.png)
