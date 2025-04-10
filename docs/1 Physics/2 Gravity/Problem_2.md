@@ -220,7 +220,7 @@ $$v_2 = \sqrt{\frac{2GM}{R}}$$
 
 ## Visualization 
 
-![bar chart](firsst%20and%20second%20cosmic%20velocities%20for%20different%20celestial%20bodies.png)
+![bar chart](firsst%20and%20second%20and%20third%20cosmic%20velocities%20for%20different%20celestial%20bodies.png)
 
 # Importance of Cosmic Velocities in Space Exploration
 
