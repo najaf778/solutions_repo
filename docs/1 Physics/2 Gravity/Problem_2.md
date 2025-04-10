@@ -184,11 +184,13 @@ We will calculate the **first** (orbital) and **second** (escape) cosmic velocit
 
 ## Constants
 
-| Parameter | Earth | Mars | Jupiter |
-|----------|-------|------|---------|
-| Mass $M$ (kg) | $5.972 \times 10^{24}$ | $6.417 \times 10^{23}$ | $1.898 \times 10^{27}$ |
-| Radius $R$ (m) | $6.371 \times 10^6$ | $3.390 \times 10^6$ | $6.9911 \times 10^7$ |
-| $G$ | $6.674 \times 10^{-11} \ \text{m}^3/\text{kg} \cdot \text{s}^2$ |
+| Parameter              | Earth                     | Mars                    | Jupiter                 |
+|------------------------|---------------------------|-------------------------|-------------------------|
+| Mass $M$ (kg)          | $5.972 \times 10^{24}$    | $6.417 \times 10^{23}$  | $1.898 \times 10^{27}$  |
+| Radius $R$ (m)         | $6.371 \times 10^6$       | $3.390 \times 10^6$     | $6.9911 \times 10^7$    |
+| Gravitational Constant $G$ | $6.674 \times 10^{-11} \ \text{m}^3/\text{kg} \cdot \text{s}^2$ | $6.674 \times 10^{-11} \ \text{m}^3/\text{kg} \cdot \text{s}^2$ | $6.674 \times 10^{-11} \ \text{m}^3/\text{kg} \cdot \text{s}^2$ |
+| Gravitational Acceleration $g$ (m/s²) | 9.81                      | 3.71                    | 24.79                   |
+
 
 ---
 
