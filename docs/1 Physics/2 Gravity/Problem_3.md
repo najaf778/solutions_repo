@@ -83,9 +83,7 @@ Where:
   - Parking orbits before interplanetary maneuvers
 
 **Example:**
-$$
-v_{\text{circular}} = \sqrt{\frac{GM}{r}} \approx 7.7 \, \text{km/s at 300 \, \text{km altitude}}
-$$
+$$v_{\text{circular}} = \sqrt{\frac{GM}{r}} \approx 7.7 \, \text{km/s at 300 \, \text{km altitude}}$$
 
 ---
 
