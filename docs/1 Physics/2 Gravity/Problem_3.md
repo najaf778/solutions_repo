@@ -69,6 +69,39 @@ Where:
 - **Hyperbolic**: Exceeds escape velocity — leaves Earth.  
 - **Sub-orbital**: Follows a curved trajectory back to Earth (if low speed and low altitude).
 
+## Numerical Analysis: Modeling the Motion of a Payload
+
+### Gravitational Force
+The motion of the payload is determined by the gravitational force exerted by the Earth. According to Newton's Law of Universal Gravitation:
+
+$$
+F = -\frac{G M m}{r^2} \hat{r}
+$$
+
+Where:
+- $G$ is the gravitational constant ($6.674 \times 10^{-11} \, \text{m}^3 \, \text{kg}^{-1} \, \text{s}^{-2}$)
+- $M$ is the mass of Earth ($5.972 \times 10^{24} \, \text{kg}$)
+- $m$ is the mass of the payload
+- $r$ is the radial distance from the center of the Earth
+- $\hat{r}$ is the unit vector pointing from Earth toward the payload
+
+Using Newton's Second Law of Motion, $F = ma$, we derive the equation of motion as:
+
+$$
+\frac{d^2 r}{dt^2} = -\frac{G M r}{r^3}
+$$
+
+### Numerical Integration Approach
+To solve this second-order differential equation, we employ the **Runge-Kutta 4th Order (RK4)** method. This method provides a higher level of accuracy than the simpler Euler method. We transform the second-order differential equation into a system of first-order equations:
+
+$$
+\frac{d r}{dt} = v, \quad \frac{d v}{dt} = -\frac{G M r}{r^3}
+$$
+
+### Initial Conditions
+- **Initial Position**: The payload begins at an altitude of 500 km above the Earth's surface. Thus, the initial radial distance is $r_0 = R_{\text{Earth}} + 500 \, \text{km}$.
+- **Initial Velocity**: The initial velocity is adjustable to achieve different types of trajectories, such as elliptical, parabolic, or hyperbolic paths.
+
 ## Relating Trajectories to Orbital Insertion, Reentry, and Escape
 
 ### 1. **Orbital Insertion (Elliptical/Circular Trajectories)**
