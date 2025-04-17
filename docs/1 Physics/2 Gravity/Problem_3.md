@@ -189,3 +189,7 @@ This setup is used in physics to model gravitational fields inside and outside o
 ### Case 2
 
 ![alt text](Case%202.png)
+
+
+
+[Google Colab](https://colab.research.google.com/drive/1GMrIjrvySl0DQ8cG3XDsPi0PcHW0mhQG?usp=sharing)
