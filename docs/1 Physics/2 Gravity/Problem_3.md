@@ -68,3 +68,64 @@ Where:
 - **Parabolic**: Perfect escape speed — ideal case.  
 - **Hyperbolic**: Exceeds escape velocity — leaves Earth.  
 - **Sub-orbital**: Follows a curved trajectory back to Earth (if low speed and low altitude).
+
+## Relating Trajectories to Orbital Insertion, Reentry, and Escape
+
+### 1. **Orbital Insertion (Elliptical/Circular Trajectories)**
+- **When?** A payload is released with just the right tangential velocity.
+- **What happens?** It enters a **closed orbit** (circular or elliptical) around Earth.
+- **Conditions:**
+  - Velocity is less than escape speed, but enough to counteract gravity.
+  - Total energy $E < 0$ (negative specific orbital energy).
+- **Used in:**
+  - Satellites
+  - Space stations
+  - Parking orbits before interplanetary maneuvers
+
+**Example:**
+$$
+v_{\text{circular}} = \sqrt{\frac{GM}{r}} \approx 7.7 \, \text{km/s at 300 \, \text{km altitude}}
+$$
+
+---
+
+### 2. **Reentry (Suborbital or Decaying Orbit)**
+- **When?** A payload is released with **too little velocity** or enters a **degrading orbit**.
+- **What happens?** Gravity pulls it back to Earth — a **suborbital arc** or **spiral reentry** (with drag).
+- **Conditions:**
+  - Velocity is not enough for stable orbit.
+  - Path intersects Earth’s surface.
+- **Used in:**
+  - Space capsules (Apollo, Soyuz)
+  - Test reentry vehicles
+  - Ballistic missile trajectories
+
+**Visual Signature:** Curved path arcing back into Earth like a parabola or short ellipse.
+
+---
+
+### 3. **Escape (Hyperbolic Trajectory)**
+- **When?** The payload is released with **escape velocity** or higher.
+- **What happens?** The object breaks free of Earth’s gravity and **escapes into space**.
+- **Conditions:**
+  - $v \geq \sqrt{\frac{2GM}{r}}$
+  - Total energy $E \geq 0$
+- **Used in:**
+  - Deep space missions (Voyager, New Horizons)
+  - Interplanetary probes
+  - Earth-departing payloads
+
+**Example:**
+$$
+v_{\text{escape}} \approx 11.2 \, \text{km/s at sea level}
+$$
+
+---
+
+## Summary Table
+
+| Scenario          | Trajectory Type         | Speed (approx)  | Use Case                      |
+|-------------------|--------------------------|------------------|-------------------------------|
+| Orbital Insertion | Elliptical/Circular     | ~7.7 km/s        | Satellites, ISS               |
+| Reentry           | Suborbital              | < 7.7 km/s       | Capsules, ballistic missiles  |
+| Escape            | Hyperbolic              | > 11.2 km/s      | Deep space missions           |
