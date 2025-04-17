@@ -172,6 +172,83 @@
 <div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
 <div class="section" itemprop="articleBody">
 <h1 id="problem-3">Problem 3</h1>
+<h1 id="trajectories-of-a-freely-released-payload-near-earth">Trajectories of a Freely Released Payload Near Earth</h1>
+<p>When a payload is released from a moving rocket near Earth, it follows a trajectory determined by its <strong>initial velocity</strong> and <strong>Earth's gravitational pull</strong>. The paths are described by <strong>conic sections</strong> and depend on the <strong>total mechanical energy</strong> of the payload.</p>
+<hr/>
+<h2 id="orbital-trajectories-overview">Orbital Trajectories Overview</h2>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Condition (Total Energy)</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Elliptical</strong></td>
+<td><span class="arithmatex">\(E &lt; 0\)</span></td>
+<td>Bound orbit — the object stays around Earth.</td>
+</tr>
+<tr>
+<td><strong>Parabolic</strong></td>
+<td><span class="arithmatex">\(E = 0\)</span></td>
+<td>Escape trajectory — barely escapes gravity.</td>
+</tr>
+<tr>
+<td><strong>Hyperbolic</strong></td>
+<td><span class="arithmatex">\(E &gt; 0\)</span></td>
+<td>Escape trajectory — escapes Earth permanently.</td>
+</tr>
+</tbody>
+</table>
+<hr/>
+<h2 id="total-mechanical-energy-formula">Total Mechanical Energy Formula</h2>
+<div class="arithmatex">\[
+E = \frac{1}{2}mv^2 - \frac{GMm}{r}
+\]</div>
+<p>Where:<br/>
+- <span class="arithmatex">\(m\)</span>: mass of payload<br/>
+- <span class="arithmatex">\(v\)</span>: velocity at release<br/>
+- <span class="arithmatex">\(G\)</span>: gravitational constant<br/>
+- <span class="arithmatex">\(M\)</span>: mass of Earth<br/>
+- <span class="arithmatex">\(r\)</span>: distance from Earth's center  </p>
+<hr/>
+<h2 id="1-elliptical-trajectory">1. Elliptical Trajectory</h2>
+<ul>
+<li><strong>Condition</strong>: <span class="arithmatex">\(v &lt; v_{esc}\)</span> </li>
+<li><strong>Path</strong>: Closed orbit  </li>
+<li><strong>Use Case</strong>: Satellites, orbital payloads  </li>
+</ul>
+<hr/>
+<h2 id="2-parabolic-trajectory">2. Parabolic Trajectory</h2>
+<ul>
+<li><strong>Condition</strong>: <span class="arithmatex">\(v = v_{esc} = \sqrt{\frac{2GM}{r}}\)</span> </li>
+<li><strong>Path</strong>: Open curve — marginal escape  </li>
+<li><strong>Use Case</strong>: Theoretical edge case  </li>
+</ul>
+<hr/>
+<h2 id="3-hyperbolic-trajectory">3. Hyperbolic Trajectory</h2>
+<ul>
+<li><strong>Condition</strong>: <span class="arithmatex">\(v &gt; v_{esc}\)</span> </li>
+<li><strong>Path</strong>: Open curve — permanent escape  </li>
+<li><strong>Use Case</strong>: Deep space missions, escape from Earth  </li>
+</ul>
+<hr/>
+<h2 id="4-sub-orbital-ballistic-trajectory">4. Sub-Orbital (Ballistic) Trajectory</h2>
+<ul>
+<li><strong>Condition</strong>: Low horizontal speed, released in or near atmosphere  </li>
+<li><strong>Path</strong>: Parabolic, short-lived path  </li>
+<li><strong>Use Case</strong>: Missiles, test launches, re-entry capsules  </li>
+</ul>
+<hr/>
+<h2 id="summary">Summary</h2>
+<ul>
+<li><strong>Elliptical</strong>: Object stays bound to Earth.  </li>
+<li><strong>Parabolic</strong>: Perfect escape speed — ideal case.  </li>
+<li><strong>Hyperbolic</strong>: Exceeds escape velocity — leaves Earth.  </li>
+<li><strong>Sub-orbital</strong>: Follows a curved trajectory back to Earth (if low speed and low altitude).</li>
+</ul>
 </div>
 </div><footer>
 <div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
