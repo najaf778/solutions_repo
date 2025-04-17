@@ -170,3 +170,21 @@ Here we’ll visualize:
 - 3rd Cosmic Velocity – hyperbolic trajectory going beyond Earth’s gravity and solar system.
 
 ![alt text](payload%20trajectories%20with%20earth.png)
+
+## Object Trajectories in a Uniform Gravitational Field of a Filled Earth — Case 1
+
+![alt text](Object%20Trajectories%20in%20a%20Uniform%20Gravitational%20Field%20of%20a%20Filled%20Earth%20—%20Case%201.png)
+
+This plot shows the simulated paths (trajectories) of objects under the influence of Earth's gravity, assuming Earth is a **filled sphere** with **uniform density**. The blue shaded circle represents Earth, and the green dot marks its center.
+
+Each trajectory (labeled 1–6) corresponds to an object launched with different initial conditions:
+
+- **Trajectories 1–4** form elliptical or circular orbits, showing that the object remains gravitationally bound to Earth.
+- **Trajectory 5** seems to be a parabolic or high-eccentricity elliptical path, where the object just manages to escape Earth's surface briefly before returning.
+- **Trajectory 6** escapes Earth's gravitational pull entirely, moving off to infinity — this demonstrates an **escape trajectory**.
+
+This setup is used in physics to model gravitational fields inside and outside of uniformly dense planets, showing how gravitational force varies with distance and affects motion differently than a point-mass gravity model.
+
+
+### Case 2
+
