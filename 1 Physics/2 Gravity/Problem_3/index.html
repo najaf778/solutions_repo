@@ -249,6 +249,32 @@ E = \frac{1}{2}mv^2 - \frac{GMm}{r}
 <li><strong>Hyperbolic</strong>: Exceeds escape velocity — leaves Earth.  </li>
 <li><strong>Sub-orbital</strong>: Follows a curved trajectory back to Earth (if low speed and low altitude).</li>
 </ul>
+<h2 id="numerical-analysis-modeling-the-motion-of-a-payload">Numerical Analysis: Modeling the Motion of a Payload</h2>
+<h3 id="gravitational-force">Gravitational Force</h3>
+<p>The motion of the payload is determined by the gravitational force exerted by the Earth. According to Newton's Law of Universal Gravitation:</p>
+<div class="arithmatex">\[
+F = -\frac{G M m}{r^2} \hat{r}
+\]</div>
+<p>Where:
+- <span class="arithmatex">\(G\)</span> is the gravitational constant (<span class="arithmatex">\(6.674 \times 10^{-11} \, \text{m}^3 \, \text{kg}^{-1} \, \text{s}^{-2}\)</span>)
+- <span class="arithmatex">\(M\)</span> is the mass of Earth (<span class="arithmatex">\(5.972 \times 10^{24} \, \text{kg}\)</span>)
+- <span class="arithmatex">\(m\)</span> is the mass of the payload
+- <span class="arithmatex">\(r\)</span> is the radial distance from the center of the Earth
+- <span class="arithmatex">\(\hat{r}\)</span> is the unit vector pointing from Earth toward the payload</p>
+<p>Using Newton's Second Law of Motion, <span class="arithmatex">\(F = ma\)</span>, we derive the equation of motion as:</p>
+<div class="arithmatex">\[
+\frac{d^2 r}{dt^2} = -\frac{G M r}{r^3}
+\]</div>
+<h3 id="numerical-integration-approach">Numerical Integration Approach</h3>
+<p>To solve this second-order differential equation, we employ the <strong>Runge-Kutta 4th Order (RK4)</strong> method. This method provides a higher level of accuracy than the simpler Euler method. We transform the second-order differential equation into a system of first-order equations:</p>
+<div class="arithmatex">\[
+\frac{d r}{dt} = v, \quad \frac{d v}{dt} = -\frac{G M r}{r^3}
+\]</div>
+<h3 id="initial-conditions">Initial Conditions</h3>
+<ul>
+<li><strong>Initial Position</strong>: The payload begins at an altitude of 500 km above the Earth's surface. Thus, the initial radial distance is <span class="arithmatex">\(r_0 = R_{\text{Earth}} + 500 \, \text{km}\)</span>.</li>
+<li><strong>Initial Velocity</strong>: The initial velocity is adjustable to achieve different types of trajectories, such as elliptical, parabolic, or hyperbolic paths.</li>
+</ul>
 <h2 id="relating-trajectories-to-orbital-insertion-reentry-and-escape">Relating Trajectories to Orbital Insertion, Reentry, and Escape</h2>
 <h3 id="1-orbital-insertion-ellipticalcircular-trajectories">1. <strong>Orbital Insertion (Elliptical/Circular Trajectories)</strong></h3>
 <ul>
