@@ -158,3 +158,15 @@ $$v_{\text{escape}} \approx 11.2 \, \text{km/s at sea level}$$
 | Orbital Insertion | Elliptical/Circular     | ~7.7 km/s        | Satellites, ISS               |
 | Reentry           | Suborbital              | < 7.7 km/s       | Capsules, ballistic missiles  |
 | Escape            | Hyperbolic              | > 11.2 km/s      | Deep space missions           |
+
+---
+
+Here we’ll visualize:
+
+- 1st Cosmic Velocity (Orbital Velocity) – circular orbit around Earth.
+
+- 2nd Cosmic Velocity (Escape Velocity) – parabolic trajectory escaping Earth's gravity.
+
+- 3rd Cosmic Velocity – hyperbolic trajectory going beyond Earth’s gravity and solar system.
+
+![alt text](payload%20trajectories%20with%20earth.png)
