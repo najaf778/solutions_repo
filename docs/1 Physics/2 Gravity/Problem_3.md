@@ -114,9 +114,7 @@ $$v_{\text{circular}} = \sqrt{\frac{GM}{r}} \approx 7.7 \, \text{km/s at 300 \, 
   - Earth-departing payloads
 
 **Example:**
-$$
-v_{\text{escape}} \approx 11.2 \, \text{km/s at sea level}
-$$
+$$v_{\text{escape}} \approx 11.2 \, \text{km/s at sea level}$$
 
 ---
 
