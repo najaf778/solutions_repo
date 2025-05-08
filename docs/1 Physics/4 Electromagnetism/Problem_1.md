@@ -78,6 +78,10 @@ Here are some key systems and technologies that rely heavily on the Lorentz forc
 
 
 ![img](graph.png)
+
+### Animated version of trajectory of a charged Particle in an magnetic field
+
+![gif](download-ezgif.com-video-to-gif-converter.gif)
 ---
 
 ### **Combined Effects**
@@ -89,6 +93,8 @@ The full Lorentz force $$\vec{F} = q\vec{E} + q\vec{v} \times \vec{B}$$ allows f
 - **Helical motion**: In combined $\vec{E}$ and $\vec{B}$, particles can follow spiral paths along field lines.
 
 ![img](unifom-crossed.png)
+
+
 
 ## Parameter Exploration
 
@@ -208,6 +214,3 @@ Where:
   - A **circular motion** governed by the Larmor radius in the plane perpendicular to the magnetic field.
   - A **drift velocity** that causes the entire trajectory to move in the direction of the electric field.
 
-## Trajectory of a Charged Particle in an magnetic Field
-
-![gif](download-ezgif.com-video-to-gif-converter.gif)
