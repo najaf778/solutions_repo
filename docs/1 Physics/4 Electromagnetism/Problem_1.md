@@ -76,6 +76,8 @@ Here are some key systems and technologies that rely heavily on the Lorentz forc
   - Steering and focusing beams (e.g., in accelerators and mass spectrometers).
   - Confining particles (e.g., in fusion reactors).
 
+
+[img](Particletra%20in%20e%20and%20b.png)
 ---
 
 ### **Combined Effects**
