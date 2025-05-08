@@ -200,16 +200,6 @@ Where:
 - The drift velocity is the net velocity of the charged particle due to the combined effects of electric and magnetic fields.
 - The drift velocity is perpendicular to the magnetic field and aligned with the electric field.
 - For example, in a **crossed field configuration** (where $\vec{E}$ and $\vec{B}$ are perpendicular), the charged particle moves in a **spiral path**, but the drift velocity shifts the entire path in the direction of the electric field.
-
----
-
-## **Summary Table:**
-
-| Phenomenon         | Formula                              | Key Influence                                                                 |
-|--------------------|--------------------------------------|-------------------------------------------------------------------------------|
-| **Larmor Radius**  | $r_L = \frac{mv}{|q|B$           | Affected by particle mass, velocity, and magnetic field strength.             |
-| **Drift Velocity** | $\vec{v}_D = \frac{\vec{E}}{B$   | Caused by the presence of an electric field alongside a magnetic field.       |
-
 ---
 
 ## **Relationship Between Larmor Radius and Drift Velocity**
