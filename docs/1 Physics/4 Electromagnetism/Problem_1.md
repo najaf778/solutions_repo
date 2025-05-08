@@ -155,4 +155,68 @@ Where:
 ### Simulating the Trajectory of a Charged Particle in Electric and Magnetic Fields: Effects of Field Strength, Charge, Mass, and Initial Velocity
 ![img](BSWNH.png)
 
+## Physical Phenomena: Larmor Radius and Drift Velocity
+
+## Larmor Radius (Cyclotron Radius)**
+
+The **Larmor radius** (also known as the **cyclotron radius**) is the radius of the circular orbit that a charged particle follows when it moves perpendicular to a magnetic field. This motion is due to the magnetic force acting on the particle.
+
+### Formula:
+The Larmor radius, $r_L$, is given by the formula:
+
+$$
+r_L = \frac{mv}{|q|B}
+$$
+
+Where:
+- $m$ = mass of the particle
+- $v$ = speed of the particle (perpendicular to $ \vec{B} $)
+- $q$ = charge of the particle
+- $B$ = magnetic field strength
+
+### Physical Interpretation:
+- A larger magnetic field strength ($B$) leads to a smaller radius of curvature, meaning the particle's path tightens.
+- A larger particle mass ($m$) or velocity ($v$) leads to a larger radius, meaning the particle follows a wider circular path.
+- The Larmor radius defines the **size of the helical or circular motion** the particle undergoes when perpendicular to the magnetic field.
+
+---
+
+## **2. Drift Velocity**
+
+When a charged particle moves through a medium (like a plasma or a conductor), in addition to the circular motion caused by the magnetic field, there is often a **drift velocity**. This drift occurs when an electric field ($\vec{E}$) is present, causing the charged particles to move in the direction of the electric field.
+
+### Formula:
+The drift velocity, $\vec{v}_D$, is given by the relation:
+
+$$
+\vec{v}_D = \frac{\vec{E}}{B}
+$$
+
+Where:
+- $\vec{E}$ = electric field
+- $B$ = magnetic field strength
+
+### Physical Interpretation:
+- The drift velocity is the net velocity of the charged particle due to the combined effects of electric and magnetic fields.
+- The drift velocity is perpendicular to the magnetic field and aligned with the electric field.
+- For example, in a **crossed field configuration** (where $\vec{E}$ and $\vec{B}$ are perpendicular), the charged particle moves in a **spiral path**, but the drift velocity shifts the entire path in the direction of the electric field.
+
+---
+
+## **Summary Table:**
+
+| Phenomenon         | Formula                              | Key Influence                                                                 |
+|--------------------|--------------------------------------|-------------------------------------------------------------------------------|
+| **Larmor Radius**  | $r_L = \frac{mv}{|q|B$           | Affected by particle mass, velocity, and magnetic field strength.             |
+| **Drift Velocity** | $\vec{v}_D = \frac{\vec{E}}{B$   | Caused by the presence of an electric field alongside a magnetic field.       |
+
+---
+
+## **Relationship Between Larmor Radius and Drift Velocity**
+
+- In the presence of both electric and magnetic fields, the particle will have a helical trajectory with:
+  - A **circular motion** governed by the Larmor radius in the plane perpendicular to the magnetic field.
+  - A **drift velocity** that causes the entire trajectory to move in the direction of the electric field.
+
+
 ![gif](download-ezgif.com-video-to-gif-converter.gif)
