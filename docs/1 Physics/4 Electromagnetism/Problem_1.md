@@ -77,7 +77,7 @@ Here are some key systems and technologies that rely heavily on the Lorentz forc
   - Confining particles (e.g., in fusion reactors).
 
 
-![img](Particletra%20in%20e%20and%20b.png)
+![imgg](Particletra%20in%20e%20and%20b.png)
 ---
 
 ### **Combined Effects**
