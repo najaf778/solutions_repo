@@ -214,3 +214,4 @@ Where:
   - A **circular motion** governed by the Larmor radius in the plane perpendicular to the magnetic field.
   - A **drift velocity** that causes the entire trajectory to move in the direction of the electric field.
 
+[Google Colab](https://colab.research.google.com/drive/1vWEpir4vIuCfTUiDtC0yoTFwwtI0GD-G?usp=sharing)
