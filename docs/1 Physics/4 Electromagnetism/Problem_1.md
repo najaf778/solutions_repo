@@ -88,4 +88,4 @@ The full Lorentz force $$\vec{F} = q\vec{E} + q\vec{v} \times \vec{B}$$ allows f
 - **Cyclotron motion**: In pure $\vec{B}$, charged particles spiral.
 - **Helical motion**: In combined $\vec{E}$ and $\vec{B}$, particles can follow spiral paths along field lines.
 
-![vid](download.mp4)
+![gif](download-ezgif.com-video-to-gif-converter.gif)
