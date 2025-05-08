@@ -208,5 +208,6 @@ Where:
   - A **circular motion** governed by the Larmor radius in the plane perpendicular to the magnetic field.
   - A **drift velocity** that causes the entire trajectory to move in the direction of the electric field.
 
+## Trajectory of a Charged Particle in an magnetic Field
 
 ![gif](download-ezgif.com-video-to-gif-converter.gif)
