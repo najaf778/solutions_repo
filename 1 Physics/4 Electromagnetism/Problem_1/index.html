@@ -100,6 +100,20 @@
 </li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="#parameter-exploration">Parameter Exploration</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#lorentz-force-equation">Lorentz Force Equation</a>
+<ul>
+<li class="toctree-l4"><a class="reference internal" href="#1-field-strengths-vece-and-vecb">1. Field Strengths: \(\vec{E}\) and \(\vec{B}\)</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#2-initial-velocity-vecv">2. Initial Velocity \(\vec{v}\)</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#3-charge-q-and-mass-m">3. Charge \(q\) and Mass \(m\)</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#simulating-the-trajectory-of-a-charged-particle-in-electric-and-magnetic-fields-effects-of-field-strength-charge-mass-and-initial-velocity">Simulating the Trajectory of a Charged Particle in Electric and Magnetic Fields: Effects of Field Strength, Charge, Mass, and Initial Velocity</a>
+</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -273,6 +287,72 @@
 <li><strong>Cyclotron motion</strong>: In pure <span class="arithmatex">\(\vec{B}\)</span>, charged particles spiral.</li>
 <li><strong>Helical motion</strong>: In combined <span class="arithmatex">\(\vec{E}\)</span> and <span class="arithmatex">\(\vec{B}\)</span>, particles can follow spiral paths along field lines.</li>
 </ul>
+<p><img alt="img" src="../UBUEBEDB.png"/></p>
+<h2 id="parameter-exploration">Parameter Exploration</h2>
+<h2 id="lorentz-force-equation">Lorentz Force Equation</h2>
+<p>The Lorentz force is given by:</p>
+<div class="arithmatex">\[
+\vec{F} = q (\vec{E} + \vec{v} \times \vec{B})
+\]</div>
+<p>Where:
+- <span class="arithmatex">\(q\)</span> = charge of the particle
+- <span class="arithmatex">\(m\)</span> = mass of the particle
+- <span class="arithmatex">\(\vec{E}\)</span> = electric field
+- <span class="arithmatex">\(\vec{B}\)</span> = magnetic field
+- <span class="arithmatex">\(\vec{v}\)</span> = initial velocity</p>
+<hr/>
+<h3 id="1-field-strengths-vece-and-vecb"><strong>1. Field Strengths: <span class="arithmatex">\(\vec{E}\)</span> and <span class="arithmatex">\(\vec{B}\)</span></strong></h3>
+<ul>
+<li><strong>Electric Field (<span class="arithmatex">\(\vec{E}\)</span>)</strong>:</li>
+<li>Directly adds acceleration to the particle: <span class="arithmatex">\(\vec{a}_E = \frac{q\vec{E}}{m}\)</span></li>
+<li>
+<p>Leads to <strong>linear acceleration</strong> in the direction of <span class="arithmatex">\(\vec{E}\)</span>.</p>
+</li>
+<li>
+<p><strong>Magnetic Field (<span class="arithmatex">\(\vec{B}\)</span>)</strong>:</p>
+</li>
+<li>Causes <strong>circular or helical motion</strong> if perpendicular to velocity.</li>
+<li>Radius of circular path: <span class="arithmatex">\(r = \frac{mv}{|q||\vec{B}|}\)</span></li>
+<li>Frequency of rotation (cyclotron frequency): <span class="arithmatex">\(f = \frac{|q||\vec{B}|}{2\pi m}\)</span></li>
+</ul>
+<blockquote>
+<p><strong>Explore</strong>: 
+- Varying <span class="arithmatex">\(B\)</span> increases rotation frequency and tightens the spiral or circle.
+- Varying <span class="arithmatex">\(E\)</span> stretches the trajectory linearly in <span class="arithmatex">\(\vec{E}\)</span>'s direction.</p>
+</blockquote>
+<hr/>
+<h3 id="2-initial-velocity-vecv"><strong>2. Initial Velocity <span class="arithmatex">\(\vec{v}\)</span></strong></h3>
+<ul>
+<li>If <span class="arithmatex">\(\vec{v} \parallel \vec{B}\)</span>: Particle moves straight along <span class="arithmatex">\(\vec{B}\)</span>.</li>
+<li>If <span class="arithmatex">\(\vec{v} \perp \vec{B}\)</span>: Pure circular motion.</li>
+<li>If <span class="arithmatex">\(\vec{v}\)</span> has both components: <strong>Helical motion</strong>.</li>
+</ul>
+<blockquote>
+<p><strong>Explore</strong>: 
+- Adjusting <span class="arithmatex">\(\vec{v}\)</span>'s direction changes the shape from a straight line → circle → helix.</p>
+</blockquote>
+<hr/>
+<h3 id="3-charge-q-and-mass-m"><strong>3. Charge <span class="arithmatex">\(q\)</span> and Mass <span class="arithmatex">\(m\)</span></strong></h3>
+<ul>
+<li><strong>Charge <span class="arithmatex">\(q\)</span></strong>:</li>
+<li>Direction of force reverses with sign of <span class="arithmatex">\(q\)</span>.</li>
+<li>
+<p>Larger <span class="arithmatex">\(|q|\)</span> increases force magnitude.</p>
+</li>
+<li>
+<p><strong>Mass <span class="arithmatex">\(m\)</span></strong>:</p>
+</li>
+<li>Affects how easily the particle accelerates (inertia).</li>
+<li>Larger <span class="arithmatex">\(m\)</span> → larger radius, slower acceleration.</li>
+</ul>
+<blockquote>
+<p><strong>Explore</strong>: 
+- Positive vs. negative charge → opposite rotation direction.
+- Heavier particles spiral more slowly and with larger radius.</p>
+</blockquote>
+<hr/>
+<h3 id="simulating-the-trajectory-of-a-charged-particle-in-electric-and-magnetic-fields-effects-of-field-strength-charge-mass-and-initial-velocity">Simulating the Trajectory of a Charged Particle in Electric and Magnetic Fields: Effects of Field Strength, Charge, Mass, and Initial Velocity</h3>
+<p><img alt="img" src="../BSWNH.png"/></p>
 <p><img alt="gif" src="../download-ezgif.com-video-to-gif-converter.gif"/></p>
 </div>
 </div><footer>
