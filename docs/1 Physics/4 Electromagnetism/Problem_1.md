@@ -88,4 +88,71 @@ The full Lorentz force $$\vec{F} = q\vec{E} + q\vec{v} \times \vec{B}$$ allows f
 - **Cyclotron motion**: In pure $\vec{B}$, charged particles spiral.
 - **Helical motion**: In combined $\vec{E}$ and $\vec{B}$, particles can follow spiral paths along field lines.
 
+![img](UBUEBEDB.png)
+
+## Parameter Exploration
+
+## Lorentz Force Equation
+
+The Lorentz force is given by:
+
+$$
+\vec{F} = q (\vec{E} + \vec{v} \times \vec{B})
+$$
+
+Where:
+- $q$ = charge of the particle
+- $m$ = mass of the particle
+- $\vec{E}$ = electric field
+- $\vec{B}$ = magnetic field
+- $\vec{v}$ = initial velocity
+
+---
+
+### **1. Field Strengths: $\vec{E}$ and $\vec{B}$**
+
+- **Electric Field ($\vec{E}$)**:
+  - Directly adds acceleration to the particle: $\vec{a}_E = \frac{q\vec{E}}{m}$
+  - Leads to **linear acceleration** in the direction of $\vec{E}$.
+
+- **Magnetic Field ($\vec{B}$)**:
+  - Causes **circular or helical motion** if perpendicular to velocity.
+  - Radius of circular path: $r = \frac{mv}{|q||\vec{B}|}$
+  - Frequency of rotation (cyclotron frequency): $f = \frac{|q||\vec{B}|}{2\pi m}$
+
+> **Explore**: 
+- Varying $B$ increases rotation frequency and tightens the spiral or circle.
+- Varying $E$ stretches the trajectory linearly in $\vec{E}$'s direction.
+
+---
+
+### **2. Initial Velocity $\vec{v}$**
+
+- If $\vec{v} \parallel \vec{B}$: Particle moves straight along $\vec{B}$.
+- If $\vec{v} \perp \vec{B}$: Pure circular motion.
+- If $\vec{v}$ has both components: **Helical motion**.
+
+> **Explore**: 
+- Adjusting $\vec{v}$'s direction changes the shape from a straight line → circle → helix.
+
+---
+
+### **3. Charge $q$ and Mass $m$**
+
+- **Charge $q$**:
+  - Direction of force reverses with sign of $q$.
+  - Larger $|q|$ increases force magnitude.
+
+- **Mass $m$**:
+  - Affects how easily the particle accelerates (inertia).
+  - Larger $m$ → larger radius, slower acceleration.
+
+> **Explore**: 
+- Positive vs. negative charge → opposite rotation direction.
+- Heavier particles spiral more slowly and with larger radius.
+
+---
+### Simulating the Trajectory of a Charged Particle in Electric and Magnetic Fields: Effects of Field Strength, Charge, Mass, and Initial Velocity
+![img](BSWNH.png)
+
 ![gif](download-ezgif.com-video-to-gif-converter.gif)
