@@ -77,7 +77,7 @@ Here are some key systems and technologies that rely heavily on the Lorentz forc
   - Confining particles (e.g., in fusion reactors).
 
 
-[img](Particletra%20in%20e%20and%20b.png)
+![img](Particletra%20in%20e%20and%20b.png)
 ---
 
 ### **Combined Effects**
@@ -87,3 +87,5 @@ The full Lorentz force $$\vec{F} = q\vec{E} + q\vec{v} \times \vec{B}$$ allows f
 - **Drift motion**: In crossed $\vec{E}$ and $\vec{B}$ fields, particles can drift perpendicular to both fields.
 - **Cyclotron motion**: In pure $\vec{B}$, charged particles spiral.
 - **Helical motion**: In combined $\vec{E}$ and $\vec{B}$, particles can follow spiral paths along field lines.
+
+![vid](download.mp4)
