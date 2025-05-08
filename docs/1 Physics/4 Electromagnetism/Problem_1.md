@@ -54,11 +54,11 @@ Here are some key systems and technologies that rely heavily on the Lorentz forc
 
 ---
 
-## **2. Relevance of Electric ($ \vec{E} $) and Magnetic ($ \vec{B} $) Fields**
+## **2. Relevance of Electric ($\vec{E}$) and Magnetic ($\vec{B}$) Fields**
 
 ---
 
-### **Electric Fields ($ \vec{E} $)**
+### **Electric Fields ($\vec{E}$)**
 
 - **Direct acceleration**: Cause particles to gain kinetic energy in the direction of the field.
 - **Straight-line influence**: Change particle speed without necessarily curving their path (in uniform fields).
@@ -68,7 +68,7 @@ Here are some key systems and technologies that rely heavily on the Lorentz forc
 
 ---
 
-### **Magnetic Fields ($ \vec{B} $)**
+### **Magnetic Fields ($\vec{B}$)**
 
 - **Directional control**: Do not change particle speed, only direction.
 - **Cause circular/helical motion**: Because the magnetic force is always perpendicular to velocity.
