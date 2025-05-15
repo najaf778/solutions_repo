@@ -84,6 +84,16 @@
 <ul class="current">
 <li class="toctree-l2 current"><a class="reference internal current" href="#">Problem 1</a>
 <ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="#parameter-exploration">Parameter Exploration</a>
+<ul>
+<li class="toctree-l4"><a class="reference internal" href="#normality-tests-and-spread-visualization">Normality Tests and Spread Visualization</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#practical-applications">Practical Applications</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#conclusion">Conclusion</a>
+</li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../Problem_2/">Problem 2</a>
@@ -172,6 +182,81 @@
 <div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
 <div class="section" itemprop="articleBody">
 <h1 id="problem-1">Problem 1</h1>
+<p>Simulating Population Distributions</p>
+<p>We will generate three different populations:
+1. <strong>Uniform Distribution</strong>: Values are evenly distributed between 0 and 1.
+2. <strong>Exponential Distribution</strong>: A right-skewed distribution often used to model waiting times.
+3. <strong>Binomial Distribution</strong>: A discrete distribution representing the number of successes in a fixed number of trials.</p>
+<p>Each population will contain 100,000 data points to ensure a robust simulation.
+We will visualize the distributions to highlight how their shapes differ from a normal distribution.</p>
+<p><img alt="image" src="../stats1-1.png"/></p>
+<hr/>
+<p>For each population distribution (Uniform, Exponential, Binomial), we:
+- Draw 1000 random samples of various sizes: n = 5, 10, 30, 50
+- Calculate the mean of each sample
+- Plot histograms of the resulting sampling distributions of the sample mean</p>
+<p>This process allows us to observe how the sampling distribution of the mean becomes increasingly normal as sample size increases — a key idea behind the Central Limit Theorem.</p>
+<p><img alt="image" src="../stats1-2.png"/></p>
+<hr/>
+<p><img alt="image" src="../stats1-4.png"/></p>
+<hr/>
+<p><img alt="image" src="../stats1-3.png"/></p>
+<hr/>
+<h2 id="parameter-exploration">Parameter Exploration</h2>
+<ol>
+<li><strong>Convergence Rate to Normality</strong></li>
+<li>Different population shapes (Uniform, Exponential, Binomial) require different sample sizes before their sampling distributions appear normal.</li>
+<li>
+<p>We will use visual tools (histograms, Q-Q plots) and statistical tests to observe this.</p>
+</li>
+<li>
+<p><strong>Variance and Spread</strong></p>
+</li>
+<li>The spread (standard deviation) of the sampling distribution decreases as sample size increases.</li>
+<li>It is theoretically <span class="arithmatex">\(<span class="arithmatex">\(\sigma_{\bar{x}} = \frac{\sigma}{\sqrt{n}}\)</span>\)</span>, where <span class="arithmatex">\(<span class="arithmatex">\(\sigma\)</span>\)</span> is the population standard deviation.</li>
+<li>We will empirically compare this formula with observed sampling distribution spreads.</li>
+</ol>
+<p><img alt="image" src="../stats1-5.png"/></p>
+<hr/>
+<p><img alt="image" src="../stats1-6.png"/></p>
+<hr/>
+<p><img alt="image" src="../stats1-7.png"/></p>
+<h3 id="normality-tests-and-spread-visualization">Normality Tests and Spread Visualization</h3>
+<p><img alt="image" src="../stats1-8.png"/></p>
+<h2 id="practical-applications">Practical Applications</h2>
+<p>The Central Limit Theorem (CLT) is not just a theoretical curiosity — it underpins many real-world applications:</p>
+<ol>
+<li><strong>Estimating Population Parameters:</strong></li>
+<li>When conducting surveys or polls, it's often impractical to measure an entire population.</li>
+<li>By taking random samples, the CLT ensures the sample mean is a reliable estimator for the population mean.</li>
+<li>
+<p>This justifies the use of confidence intervals and hypothesis testing in statistics.</p>
+</li>
+<li>
+<p><strong>Quality Control in Manufacturing:</strong></p>
+</li>
+<li>Factories monitor product quality by sampling items from production lines.</li>
+<li>The CLT guarantees that averages of samples reflect the overall process, even if individual measurements vary.</li>
+<li>
+<p>This helps detect deviations or defects early without exhaustive inspection.</p>
+</li>
+<li>
+<p><strong>Financial Modeling and Risk Assessment:</strong></p>
+</li>
+<li>Financial analysts model asset returns or portfolio risks using averages of returns.</li>
+<li>The CLT allows modeling these aggregated returns as approximately normal, even if individual returns are not.</li>
+<li>This supports techniques like Value at Risk (VaR) and portfolio optimization.</li>
+</ol>
+<p>In all these cases, the CLT provides a mathematical foundation for making inferences about large populations or complex systems from manageable samples.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>The Central Limit Theorem is a fundamental principle in statistics that explains why sample means tend to follow a normal distribution, regardless of the original population distribution, as sample size increases. Through simulations with uniform, exponential, and binomial populations, we observed:</p>
+<ul>
+<li>Sampling distributions of the mean become more bell-shaped and symmetric as sample size grows.</li>
+<li>The rate of convergence to normality depends on the shape of the original distribution, with more skewed populations requiring larger samples.</li>
+<li>The spread of the sampling distribution decreases proportionally to the inverse square root of the sample size, matching theoretical expectations.</li>
+<li>These properties underpin practical applications in fields like survey sampling, quality control, and financial modeling, enabling reliable inference and decision-making from limited data.</li>
+</ul>
+<p>Overall, the CLT provides a powerful justification for using normal distribution assumptions in many real-world statistical analyses.</p>
 </div>
 </div><footer>
 <div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
