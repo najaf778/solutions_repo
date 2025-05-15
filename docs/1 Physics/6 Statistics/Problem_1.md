@@ -39,9 +39,12 @@ This process allows us to observe how the sampling distribution of the mean beco
    - We will use visual tools (histograms, Q-Q plots) and statistical tests to observe this.
 
 2. **Variance and Spread**
-   - The spread (standard deviation) of the sampling distribution decreases as sample size increases.
-   - It is theoretically $$\sigma_{\bar{x}} = \frac{\sigma}{\sqrt{n}}$$, where $$\sigma$$ is the population standard deviation.
-   - We will empirically compare this formula with observed sampling distribution spreads.
+   
+   The spread (standard deviation) of the sampling distribution decreases as sample size increases.
+
+   It is theoretically $\sigma_{\bar{x}} = \frac{\sigma}{\sqrt{n}}$, where $\sigma$ is the population standard deviation.
+   
+   We will empirically compare this formula with observed sampling distribution spreads.
 
 ![image](stats1-5.png)
 
