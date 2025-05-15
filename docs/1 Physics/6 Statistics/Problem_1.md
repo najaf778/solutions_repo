@@ -3,8 +3,11 @@
 Simulating Population Distributions
 
 We will generate three different populations:
+
 1. **Uniform Distribution**: Values are evenly distributed between 0 and 1.
+
 2. **Exponential Distribution**: A right-skewed distribution often used to model waiting times.
+
 3. **Binomial Distribution**: A discrete distribution representing the number of successes in a fixed number of trials.
 
 Each population will contain 100,000 data points to ensure a robust simulation.
@@ -35,8 +38,10 @@ This process allows us to observe how the sampling distribution of the mean beco
 ## Parameter Exploration
 
 1. **Convergence Rate to Normality**
-   - Different population shapes (Uniform, Exponential, Binomial) require different sample sizes before their sampling distributions appear normal.
-   - We will use visual tools (histograms, Q-Q plots) and statistical tests to observe this.
+   
+   Different population shapes (Uniform, Exponential, Binomial) require different sample sizes before their sampling distributions appear normal.
+   
+   We will use visual tools (histograms, Q-Q plots) and statistical tests to observe this.
 
 2. **Variance and Spread**
    
