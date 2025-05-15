@@ -62,19 +62,28 @@ This process allows us to observe how the sampling distribution of the mean beco
 The Central Limit Theorem (CLT) is not just a theoretical curiosity — it underpins many real-world applications:
 
 1. **Estimating Population Parameters:**
-   - When conducting surveys or polls, it's often impractical to measure an entire population.
-   - By taking random samples, the CLT ensures the sample mean is a reliable estimator for the population mean.
-   - This justifies the use of confidence intervals and hypothesis testing in statistics.
+
+    When conducting surveys or polls, it's often impractical to measure an entire population.
+    
+    By taking random samples, the CLT ensures the sample mean is a reliable estimator for the population mean.
+   
+    This justifies the use of confidence intervals and hypothesis testing in statistics.
 
 2. **Quality Control in Manufacturing:**
-   - Factories monitor product quality by sampling items from production lines.
-   - The CLT guarantees that averages of samples reflect the overall process, even if individual measurements vary.
-   - This helps detect deviations or defects early without exhaustive inspection.
+    
+    Factories monitor product quality by sampling items from production lines.
+    
+    The CLT guarantees that averages of samples reflect the overall process, even if individual measurements vary.
+    
+    This helps detect deviations or defects early without exhaustive inspection.
 
 3. **Financial Modeling and Risk Assessment:**
-   - Financial analysts model asset returns or portfolio risks using averages of returns.
-   - The CLT allows modeling these aggregated returns as approximately normal, even if individual returns are not.
-   - This supports techniques like Value at Risk (VaR) and portfolio optimization.
+   
+    Financial analysts model asset returns or portfolio risks using averages of returns.
+    
+    The CLT allows modeling these aggregated returns as approximately normal, even if individual returns are not.
+    
+    This supports techniques like Value at Risk (VaR) and portfolio optimization.
 
 In all these cases, the CLT provides a mathematical foundation for making inferences about large populations or complex systems from manageable samples.
 
