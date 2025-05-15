@@ -105,3 +105,6 @@ The Central Limit Theorem is a fundamental principle in statistics that explains
 - These properties underpin practical applications in fields like survey sampling, quality control, and financial modeling, enabling reliable inference and decision-making from limited data.
 
 Overall, the CLT provides a powerful justification for using normal distribution assumptions in many real-world statistical analyses.
+
+
+[Google Colab](https://colab.research.google.com/drive/1OYUPMbmXrXpP1u9pxJ4wsWCXWQaEdV2P?usp=sharing)
