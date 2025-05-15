@@ -37,13 +37,13 @@ This process allows us to observe how the sampling distribution of the mean beco
 
 ## Parameter Exploration
 
-1. **Convergence Rate to Normality**
+ 1. **Convergence Rate to Normality**
    
    Different population shapes (Uniform, Exponential, Binomial) require different sample sizes before their sampling distributions appear normal.
    
    We will use visual tools (histograms, Q-Q plots) and statistical tests to observe this.
 
-2. **Variance and Spread**
+ 2. **Variance and Spread**
    
    The spread (standard deviation) of the sampling distribution decreases as sample size increases.
 
