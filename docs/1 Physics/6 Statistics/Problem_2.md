@@ -45,7 +45,7 @@ $$
 \frac{\text{Points inside circle}}{\text{Total points}} \approx \frac{\pi}{4}
 $$
 
-We can solve for $ \pi $ to get an estimate:
+We can solve for $\pi$ to get an estimate:
 
 $$
 \pi \approx 4 \times \frac{\text{Points inside circle}}{\text{Total points}}
