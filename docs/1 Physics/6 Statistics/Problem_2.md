@@ -247,10 +247,4 @@ This method is both a **beautiful illustration of geometric probability** and a 
 
  This comparison highlights the efficiency of the circle-based method for larger trial counts while showing the conceptual elegance of Buffon’s Needle for demonstrating geometric probability. 
 
-
-
-
-
-
-
-
+[Google Colab](https://colab.research.google.com/drive/177tXE_p8o_xEZhYxhPFHryrRwsUfQAAQ?usp=sharing)
