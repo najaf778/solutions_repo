@@ -1,6 +1,6 @@
 # Problem 2
 
-## Estimating π Using Monte Carlo Methods  
+# Estimating π Using Monte Carlo Methods  
 ---
 ## Theoretical Foundation
 
@@ -135,3 +135,122 @@ This means to reduce the error by a factor of 10, we must increase the number of
 We simulate π estimation for a range of $N$ values and plot the results to visualize convergence.
 
 ![alt text](stats2-3.png)
+
+# Estimating π Using Buffon’s Needle  
+## Theoretical Foundation
+
+---
+
+### Buffon’s Needle Problem
+
+Buffon’s Needle is a famous **geometric probability** problem, first posed by French mathematician **Georges-Louis Leclerc, Comte de Buffon** in the 18th century.
+
+The setup is as follows:
+
+- A floor has equally spaced **parallel lines** that are a distance $d$ apart.
+- A needle of length $\ell$ is **randomly dropped** onto the floor.
+- The goal is to find the **probability** that the needle **crosses** one of the lines.
+
+Surprisingly, this probability depends on **π**, and can be used to **estimate** its value.
+
+---
+
+### Assumptions
+
+- The needle’s length $\ell$ must satisfy $\ell \leq d$.
+- The needle is dropped with **uniformly random orientation and position**.
+- Let:
+  - $N$ = total number of needle drops (throws)
+  - $C$ = number of times the needle crosses a line
+
+---
+
+### Geometric Probability Derivation
+
+Let:
+
+- $\theta$ be the acute angle between the needle and the lines, uniformly distributed in $[0, \frac{\pi}{2}]$
+- $x$ be the distance from the center of the needle to the nearest line, uniformly in $[0, \frac{d}{2}]$
+
+A crossing occurs if **half the needle projects past the nearest line**, i.e.:
+
+$$
+x \leq \frac{\ell}{2} \sin\theta
+$$
+
+The probability of this happening (over all possible orientations and positions) is given by integrating over all valid $(x, \theta)$ pairs:
+
+$$
+P(\text{cross}) = \frac{2\ell}{\pi d}
+$$
+
+---
+
+### Estimating π Using Experimental Data
+
+If we simulate (or conduct) $N$ throws and observe $C$ crossings, we equate the empirical probability with the theoretical one:
+
+$$
+\frac{C}{N} \approx \frac{2\ell}{\pi d}
+$$
+
+Solving for $\pi$:
+
+$$
+\pi \approx \frac{2\ell N}{dC}
+$$
+
+---
+
+### Final Formula for Estimating π
+
+Let:
+
+- $\ell$ = length of the needle
+- $d$ = distance between lines
+- $N$ = number of needle throws
+- $C$ = number of times the needle crosses a line
+
+Then:
+
+$$
+\boxed{
+\pi \approx \frac{2 \cdot \ell \cdot N}{d \cdot C}
+}
+$$
+
+---
+
+This method is both a **beautiful illustration of geometric probability** and a **practical Monte Carlo technique** to estimate π.
+
+### Simulation: Convergence of Buffon’s Needle π Estimation
+
+![image](stats2-4.png)
+
+### Convergence Comparison: Buffon's Needle vs Circle-Based Monte Carlo
+
+![alt text](stats2-5.png)
+
+### The convergence analysis compares the accuracy of estimating π using:
+
+- Buffon's Needle Method: The red curve shows how the estimate improves as the number of needle drops increases.
+
+- Circle-Based Monte Carlo Method: The green curve represents the convergence for random points within a unit square.
+
+### Observations:
+
+- Both methods converge to the true value of π (blue dashed line) as the number of trials increases.
+
+- The circle-based approach exhibits a faster and smoother convergence, likely due to its simpler geometry and higher probability of inclusion for random points.
+
+- The needle-based method converges more slowly, reflecting the rarity of crossing events in certain setups (e.g., small needle-to-line ratios).
+
+ This comparison highlights the efficiency of the circle-based method for larger trial counts while showing the conceptual elegance of Buffon’s Needle for demonstrating geometric probability. 
+
+
+
+
+
+
+
+
