@@ -98,6 +98,20 @@
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#how-to-check-if-a-point-is-inside-the-circle">How to Check if a Point is Inside the Circle</a>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="#monte-carlo-simulation-to-estimate">Monte Carlo Simulation to Estimate π</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#visualization-of-monte-carlo-points">Visualization of Monte Carlo Points</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#analysis-of-convergence-and-accuracy">Analysis of Convergence and Accuracy</a>
+<ul>
+<li class="toctree-l4"><a class="reference internal" href="#convergence-behavior">Convergence Behavior</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#computational-considerations">Computational Considerations</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#simulation-estimate-convergence-plot">Simulation: Estimate Convergence Plot</a>
+</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -232,6 +246,64 @@ x^2 + y^2 \leq 1
 <p>Thus, for each point, compute <span class="arithmatex">\(x^2 + y^2\)</span>.<br/>
 If the result is less than or equal to 1, the point is counted as <strong>inside the circle</strong>.</p>
 <hr/>
+<h2 id="monte-carlo-simulation-to-estimate">Monte Carlo Simulation to Estimate π</h2>
+<p>In this simulation, we:</p>
+<ol>
+<li>Generate <span class="arithmatex">\(N\)</span> random points <span class="arithmatex">\((x, y)\)</span> inside a square from <span class="arithmatex">\([-1, 1] \times [-1, 1]\)</span>.</li>
+<li>Count how many of them fall inside the unit circle using the condition <span class="arithmatex">\(x^2 + y^2 \leq 1\)</span>.</li>
+<li>Estimate π using the formula:</li>
+</ol>
+<div class="arithmatex">\[
+\pi \approx 4 \times \frac{\text{Points inside circle}}{\text{Total points}}
+\]</div>
+<p><img alt="image" src="../stats2-1.png"/></p>
+<h2 id="visualization-of-monte-carlo-points">Visualization of Monte Carlo Points</h2>
+<p>To visually understand how the Monte Carlo method estimates π:</p>
+<ul>
+<li>We plot all randomly generated points <span class="arithmatex">\((x, y)\)</span> inside the square.</li>
+<li>Points <strong>inside</strong> the unit circle (<span class="arithmatex">\(x^2 + y^2 \leq 1\)</span>) are shown in <strong>blue</strong>.</li>
+<li>Points <strong>outside</strong> the circle are shown in <strong>red</strong>.</li>
+<li>The unit circle is inscribed within a square of side length 2, centered at the origin.</li>
+</ul>
+<p>This visualization helps us intuitively grasp how the area ratio approximates π.</p>
+<p><img alt="alt text" src="../stats2-2.png"/></p>
+<h2 id="analysis-of-convergence-and-accuracy">Analysis of Convergence and Accuracy</h2>
+<p>Monte Carlo methods are inherently statistical, and their accuracy improves with the number of samples. In this task, we:</p>
+<ul>
+<li>Run simulations with increasing numbers of random points <span class="arithmatex">\(N\)</span></li>
+<li>Track how the estimate of <span class="arithmatex">\(\pi\)</span> converges</li>
+<li>Analyze the <strong>convergence rate</strong> and <strong>computational considerations</strong></li>
+</ul>
+<hr/>
+<h3 id="convergence-behavior">Convergence Behavior</h3>
+<p>Let <span class="arithmatex">\(E(N)\)</span> denote the estimate of <span class="arithmatex">\(\pi\)</span> after generating <span class="arithmatex">\(N\)</span> random points. According to the <strong>Law of Large Numbers</strong>, we expect:</p>
+<div class="arithmatex">\[
+\lim_{N \to \infty} E(N) = \pi
+\]</div>
+<p>The standard error (typical deviation from the true value) decreases proportionally to:</p>
+<div class="arithmatex">\[
+\text{Error} \propto \frac{1}{\sqrt{N}}
+\]</div>
+<p>This means to reduce the error by a factor of 10, we must increase the number of points by a factor of 100.</p>
+<hr/>
+<h3 id="computational-considerations">Computational Considerations</h3>
+<ul>
+<li><strong>Pros</strong>:</li>
+<li>Simple and easy to implement</li>
+<li>Scales well with parallel computing</li>
+<li>
+<p>Works even when geometric integration is hard</p>
+</li>
+<li>
+<p><strong>Cons</strong>:</p>
+</li>
+<li>Convergence is slow (<span class="arithmatex">\(\mathcal{O}(1/\sqrt{N})\)</span>)</li>
+<li>Needs a very large <span class="arithmatex">\(N\)</span> for high precision (e.g., millions of points)</li>
+</ul>
+<hr/>
+<h3 id="simulation-estimate-convergence-plot">Simulation: Estimate Convergence Plot</h3>
+<p>We simulate π estimation for a range of <span class="arithmatex">\(N\)</span> values and plot the results to visualize convergence.</p>
+<p><img alt="alt text" src="../stats2-3.png"/></p>
 </div>
 </div><footer>
 <div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
