@@ -86,32 +86,6 @@
 </li>
 <li class="toctree-l2 current"><a class="reference internal current" href="#">Problem 2</a>
 <ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="#estimating-using-monte-carlo-methods">Estimating π Using Monte Carlo Methods</a>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="#theoretical-foundation">Theoretical Foundation</a>
-<ul>
-<li class="toctree-l4"><a class="reference internal" href="#geometric-areas">Geometric Areas:</a>
-</li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="#derivation-of-the-estimation-formula">Derivation of the Estimation Formula</a>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="#how-to-check-if-a-point-is-inside-the-circle">How to Check if a Point is Inside the Circle</a>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="#monte-carlo-simulation-to-estimate">Monte Carlo Simulation to Estimate π</a>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="#visualization-of-monte-carlo-points">Visualization of Monte Carlo Points</a>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="#analysis-of-convergence-and-accuracy">Analysis of Convergence and Accuracy</a>
-<ul>
-<li class="toctree-l4"><a class="reference internal" href="#convergence-behavior">Convergence Behavior</a>
-</li>
-<li class="toctree-l4"><a class="reference internal" href="#computational-considerations">Computational Considerations</a>
-</li>
-<li class="toctree-l4"><a class="reference internal" href="#simulation-estimate-convergence-plot">Simulation: Estimate Convergence Plot</a>
-</li>
-</ul>
-</li>
 </ul>
 </li>
 </ul>
@@ -198,7 +172,7 @@
 <div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
 <div class="section" itemprop="articleBody">
 <h1 id="problem-2">Problem 2</h1>
-<h2 id="estimating-using-monte-carlo-methods">Estimating π Using Monte Carlo Methods</h2>
+<h1 id="estimating-using-monte-carlo-methods">Estimating π Using Monte Carlo Methods</h1>
 <hr/>
 <h2 id="theoretical-foundation">Theoretical Foundation</h2>
 <p>To estimate π using randomness, we consider a geometric probability setup.</p>
@@ -304,6 +278,95 @@ If the result is less than or equal to 1, the point is counted as <strong>inside
 <h3 id="simulation-estimate-convergence-plot">Simulation: Estimate Convergence Plot</h3>
 <p>We simulate π estimation for a range of <span class="arithmatex">\(N\)</span> values and plot the results to visualize convergence.</p>
 <p><img alt="alt text" src="../stats2-3.png"/></p>
+<h1 id="estimating-using-buffons-needle">Estimating π Using Buffon’s Needle</h1>
+<h2 id="theoretical-foundation_1">Theoretical Foundation</h2>
+<hr/>
+<h3 id="buffons-needle-problem">Buffon’s Needle Problem</h3>
+<p>Buffon’s Needle is a famous <strong>geometric probability</strong> problem, first posed by French mathematician <strong>Georges-Louis Leclerc, Comte de Buffon</strong> in the 18th century.</p>
+<p>The setup is as follows:</p>
+<ul>
+<li>A floor has equally spaced <strong>parallel lines</strong> that are a distance <span class="arithmatex">\(d\)</span> apart.</li>
+<li>A needle of length <span class="arithmatex">\(\ell\)</span> is <strong>randomly dropped</strong> onto the floor.</li>
+<li>The goal is to find the <strong>probability</strong> that the needle <strong>crosses</strong> one of the lines.</li>
+</ul>
+<p>Surprisingly, this probability depends on <strong>π</strong>, and can be used to <strong>estimate</strong> its value.</p>
+<hr/>
+<h3 id="assumptions">Assumptions</h3>
+<ul>
+<li>The needle’s length <span class="arithmatex">\(\ell\)</span> must satisfy <span class="arithmatex">\(\ell \leq d\)</span>.</li>
+<li>The needle is dropped with <strong>uniformly random orientation and position</strong>.</li>
+<li>Let:</li>
+<li><span class="arithmatex">\(N\)</span> = total number of needle drops (throws)</li>
+<li><span class="arithmatex">\(C\)</span> = number of times the needle crosses a line</li>
+</ul>
+<hr/>
+<h3 id="geometric-probability-derivation">Geometric Probability Derivation</h3>
+<p>Let:</p>
+<ul>
+<li><span class="arithmatex">\(\theta\)</span> be the acute angle between the needle and the lines, uniformly distributed in <span class="arithmatex">\([0, \frac{\pi}{2}]\)</span></li>
+<li><span class="arithmatex">\(x\)</span> be the distance from the center of the needle to the nearest line, uniformly in <span class="arithmatex">\([0, \frac{d}{2}]\)</span></li>
+</ul>
+<p>A crossing occurs if <strong>half the needle projects past the nearest line</strong>, i.e.:</p>
+<div class="arithmatex">\[
+x \leq \frac{\ell}{2} \sin\theta
+\]</div>
+<p>The probability of this happening (over all possible orientations and positions) is given by integrating over all valid <span class="arithmatex">\((x, \theta)\)</span> pairs:</p>
+<div class="arithmatex">\[
+P(\text{cross}) = \frac{2\ell}{\pi d}
+\]</div>
+<hr/>
+<h3 id="estimating-using-experimental-data">Estimating π Using Experimental Data</h3>
+<p>If we simulate (or conduct) <span class="arithmatex">\(N\)</span> throws and observe <span class="arithmatex">\(C\)</span> crossings, we equate the empirical probability with the theoretical one:</p>
+<div class="arithmatex">\[
+\frac{C}{N} \approx \frac{2\ell}{\pi d}
+\]</div>
+<p>Solving for <span class="arithmatex">\(\pi\)</span>:</p>
+<div class="arithmatex">\[
+\pi \approx \frac{2\ell N}{dC}
+\]</div>
+<hr/>
+<h3 id="final-formula-for-estimating">Final Formula for Estimating π</h3>
+<p>Let:</p>
+<ul>
+<li><span class="arithmatex">\(\ell\)</span> = length of the needle</li>
+<li><span class="arithmatex">\(d\)</span> = distance between lines</li>
+<li><span class="arithmatex">\(N\)</span> = number of needle throws</li>
+<li><span class="arithmatex">\(C\)</span> = number of times the needle crosses a line</li>
+</ul>
+<p>Then:</p>
+<div class="arithmatex">\[
+\boxed{
+\pi \approx \frac{2 \cdot \ell \cdot N}{d \cdot C}
+}
+\]</div>
+<hr/>
+<p>This method is both a <strong>beautiful illustration of geometric probability</strong> and a <strong>practical Monte Carlo technique</strong> to estimate π.</p>
+<h3 id="simulation-convergence-of-buffons-needle-estimation">Simulation: Convergence of Buffon’s Needle π Estimation</h3>
+<p><img alt="image" src="../stats2-4.png"/></p>
+<h3 id="convergence-comparison-buffons-needle-vs-circle-based-monte-carlo">Convergence Comparison: Buffon's Needle vs Circle-Based Monte Carlo</h3>
+<p><img alt="alt text" src="../stats2-5.png"/></p>
+<h3 id="the-convergence-analysis-compares-the-accuracy-of-estimating-using">The convergence analysis compares the accuracy of estimating π using:</h3>
+<ul>
+<li>
+<p>Buffon's Needle Method: The red curve shows how the estimate improves as the number of needle drops increases.</p>
+</li>
+<li>
+<p>Circle-Based Monte Carlo Method: The green curve represents the convergence for random points within a unit square.</p>
+</li>
+</ul>
+<h3 id="observations">Observations:</h3>
+<ul>
+<li>
+<p>Both methods converge to the true value of π (blue dashed line) as the number of trials increases.</p>
+</li>
+<li>
+<p>The circle-based approach exhibits a faster and smoother convergence, likely due to its simpler geometry and higher probability of inclusion for random points.</p>
+</li>
+<li>
+<p>The needle-based method converges more slowly, reflecting the rarity of crossing events in certain setups (e.g., small needle-to-line ratios).</p>
+</li>
+</ul>
+<p>This comparison highlights the efficiency of the circle-based method for larger trial counts while showing the conceptual elegance of Buffon’s Needle for demonstrating geometric probability. </p>
 </div>
 </div><footer>
 <div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
