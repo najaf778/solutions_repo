@@ -15,12 +15,12 @@ Now we generate random points $(x, y)$, where $x, y \in [-1, 1]$, such that the 
 
 - **Area of the square**:  
 $$
-  A_{\text{square}} = 2 \times 2 = 4
+A_{\text{square}} = 2 \times 2 = 4
 $$
 
 - **Area of the unit circle**:  
 $$
-  A_{\text{circle}} = \pi \times r^2 = \pi \times 1^2 = \pi
+A_{\text{circle}} = \pi \times r^2 = \pi \times 1^2 = \pi
 $$
 
 The **probability** that a randomly chosen point lands **inside the circle** is given by the ratio of the areas:
