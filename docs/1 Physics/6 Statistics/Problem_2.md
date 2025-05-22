@@ -63,3 +63,75 @@ Thus, for each point, compute $x^2 + y^2$.
 If the result is less than or equal to 1, the point is counted as **inside the circle**.
 
 ---
+## Monte Carlo Simulation to Estimate π
+
+In this simulation, we:
+
+1. Generate $N$ random points $(x, y)$ inside a square from $[-1, 1] \times [-1, 1]$.
+2. Count how many of them fall inside the unit circle using the condition $x^2 + y^2 \leq 1$.
+3. Estimate π using the formula:
+
+$$
+\pi \approx 4 \times \frac{\text{Points inside circle}}{\text{Total points}}
+$$
+
+![image](stats2-1.png)
+
+## Visualization of Monte Carlo Points
+
+To visually understand how the Monte Carlo method estimates π:
+
+- We plot all randomly generated points $(x, y)$ inside the square.
+- Points **inside** the unit circle ($x^2 + y^2 \leq 1$) are shown in **blue**.
+- Points **outside** the circle are shown in **red**.
+- The unit circle is inscribed within a square of side length 2, centered at the origin.
+
+This visualization helps us intuitively grasp how the area ratio approximates π.
+
+![alt text](stats2-2.png)
+
+## Analysis of Convergence and Accuracy
+
+Monte Carlo methods are inherently statistical, and their accuracy improves with the number of samples. In this task, we:
+
+- Run simulations with increasing numbers of random points $N$
+- Track how the estimate of $\pi$ converges
+- Analyze the **convergence rate** and **computational considerations**
+
+---
+
+### Convergence Behavior
+
+Let $E(N)$ denote the estimate of $\pi$ after generating $N$ random points. According to the **Law of Large Numbers**, we expect:
+
+$$
+\lim_{N \to \infty} E(N) = \pi
+$$
+
+The standard error (typical deviation from the true value) decreases proportionally to:
+
+$$
+\text{Error} \propto \frac{1}{\sqrt{N}}
+$$
+
+This means to reduce the error by a factor of 10, we must increase the number of points by a factor of 100.
+
+---
+
+### Computational Considerations
+
+- **Pros**:
+  - Simple and easy to implement
+  - Scales well with parallel computing
+  - Works even when geometric integration is hard
+
+- **Cons**:
+  - Convergence is slow ($\mathcal{O}(1/\sqrt{N})$)
+  - Needs a very large $N$ for high precision (e.g., millions of points)
+
+---
+
+### Simulation: Estimate Convergence Plot
+We simulate π estimation for a range of $N$ values and plot the results to visualize convergence.
+
+![alt text](stats2-3.png)
