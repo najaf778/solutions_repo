@@ -227,6 +227,10 @@ This method is both a **beautiful illustration of geometric probability** and a 
 
 ![image](stats2-4.png)
 
+### Buffon's Needle Simulation:
+
+![alt text](stats2-6.png)
+
 ### Convergence Comparison: Buffon's Needle vs Circle-Based Monte Carlo
 
 ![alt text](stats2-5.png)
